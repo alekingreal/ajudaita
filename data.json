@@ -1,0 +1,1877 @@
+{
+  "events": [
+    {
+      "id": "59707186-cdb8-4260-8644-d8af3be34abe",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "planner",
+      "payload": {
+        "nivel": "fundamental",
+        "materia": "Português",
+        "dataProva": "2025-10-01",
+        "plan": {
+          "dias": [
+            {
+              "data": "26-09-2025",
+              "tarefas": [
+                "Estudar gramática: classes gramaticais",
+                "Praticar exercícios de identificação de classes gramaticais"
+              ]
+            },
+            {
+              "data": "26-09-2025",
+              "tarefas": [
+                "Ler texto literário: contos",
+                "Analisar elementos do conto"
+              ]
+            },
+            {
+              "data": "27-09-2025",
+              "tarefas": [
+                "Revisar gramática: tempos verbais",
+                "Fazer exercícios de conjugação verbal"
+              ]
+            },
+            {
+              "data": "28-09-2025",
+              "tarefas": [
+                "Estudar ortografia: regras básicas",
+                "Praticar ditado com palavras de ortografia complexa"
+              ]
+            },
+            {
+              "data": "29-09-2025",
+              "tarefas": [
+                "Simulado de Português: gramática e interpretação de texto"
+              ]
+            }
+          ],
+          "observacoes": "Plano de estudos focado em gramática, leitura e revisão."
+        },
+        "mode": "llm"
+      },
+      "createdAt": "2025-09-26T02:54:49.798Z"
+    },
+    {
+      "id": "ebef508d-90a5-474f-a5ba-398e4aa27341",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "chat",
+      "payload": {
+        "nivel": "fundamental",
+        "materia": "geral",
+        "question": "pode me ajudar a montar um plano de estudo para ingles",
+        "answer": "Claro! Aqui está um plano de estudo simples e eficaz para aprender inglês:\n\n### Plano de Estudo para Inglês\n\n1. **Defina seus objetivos**\n   - Por que você quer aprender inglês? (ex: viajar, trabalho, estudos)\n\n2. **Estabeleça uma rotina**\n   - Estude pelo menos 30 minutos por dia, 5 dias por semana.\n\n3. **Divida o estudo em categorias**\n   - **Vocabulário**: Aprenda 5 novas palavras por dia.\n   - **Gramática**: Estude uma regra gramatical por semana.\n   - **Leitura**: Leia um texto curto em inglês (notícias, histórias).\n   - **Escuta**: Ouça músicas ou podcasts em inglês.\n   - **Conversação**: Pratique falar com alguém ou grave sua voz.\n\n4. **Use recursos variados**\n   - Aplicativos (ex: Duolingo, Babbel)\n   - Vídeos no YouTube\n   - Livros didáticos\n   - Sites de intercâmbio de idiomas\n\n5. **Avalie seu progresso**\n   - A cada mês, revise o que aprendeu e ajuste seu plano se necessário.\n\n### Exemplo de uma semana de estudo:\n- **Segunda**: Aprender 5 palavras novas e usar em frases.\n- **Terça**: Estudar a regra do passado simples.\n- **Quarta**: Ler um texto curto e anotar palavras desconhecidas.\n- **Quinta**: Ouvir uma música em inglês e tentar entender a letra.\n- **Sexta**: Conversar com um amigo ou praticar sozinho.\n\nPróximo passo: Escolha um objetivo específico e comece a montar sua rotina de estudos!",
+        "conversationId": "mg0d5xxt-qjfajw",
+        "conversationTitle": "Nova conversa"
+      },
+      "createdAt": "2025-09-26T04:50:56.616Z"
+    },
+    {
+      "id": "27e11b3c-e664-4d74-8dfb-a0496307cb43",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "chat",
+      "payload": {
+        "nivel": "fundamental",
+        "materia": "geral",
+        "question": "me ajude com um plano de estudos em ingles",
+        "answer": "Claro! Aqui está um plano de estudos básico para aprender inglês, organizado em etapas:\n\n### Plano de Estudos em Inglês\n\n1. **Defina seus objetivos**\n   - Por que você quer aprender inglês? (Ex: viajar, trabalho, estudos)\n\n2. **Estabeleça uma rotina**\n   - Estude pelo menos 30 minutos por dia.\n   - Escolha um horário fixo que funcione para você.\n\n3. **Divida o estudo em habilidades**\n   - **Leitura**: Leia textos simples, como histórias infantis ou artigos curtos.\n   - **Escrita**: Escreva frases ou pequenos textos sobre seu dia.\n   - **Audição**: Ouça músicas em inglês ou assista a vídeos com legendas.\n   - **Fala**: Pratique falar em voz alta, repetindo diálogos ou conversando com amigos.\n\n4. **Use recursos variados**\n   - Aplicativos (ex: Duolingo, Babbel)\n   - Livros didáticos\n   - Vídeos no YouTube\n   - Podcasts\n\n5. **Faça revisões**\n   - Reserve um dia da semana para revisar o que aprendeu.\n\n### Exemplo de Atividade Diária\n- **Segunda-feira**:\n  - Leitura: 10 minutos de uma história em inglês.\n  - Escrita: Escrever 5 frases sobre o que você fez no fim de semana.\n  - Audição: Ouvir uma música e tentar entender a letra.\n  - Fala: Praticar a pronúncia de palavras novas.\n\n**Próximo passo**: Comece a seguir esse plano e ajuste conforme suas necessidades!",
+        "conversationId": "mg0dm13y-7q862y",
+        "conversationTitle": "Nova conversa"
+      },
+      "createdAt": "2025-09-26T05:03:43.064Z"
+    },
+    {
+      "id": "7d0e0fac-f60b-41e7-ab35-ce94c2b89cb0",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "chat",
+      "payload": {
+        "nivel": "fundamental",
+        "materia": "geral",
+        "question": "Pode repetir pra mim ?",
+        "answer": "Claro! Vamos lá:\n\n1. **Objetivo**: Defina o que você quer alcançar com o estudo de inglês (ex: viajar, trabalho, escola).\n2. **Tempo disponível**: Quanto tempo você pode dedicar por dia ou por semana?\n3. **Recursos**: Quais materiais você tem? (livros, aplicativos, vídeos)\n4. **Atividades**: Misture diferentes tipos de atividades:\n   - **Leitura**: Ler textos em inglês.\n   - **Escuta**: Ouvir músicas ou podcasts.\n   - **Fala**: Praticar conversação com alguém.\n   - **Escrita**: Escrever pequenos textos ou diários.\n\n**Exemplo de plano**:\n- Segunda: 30 min de leitura + 30 min de escuta.\n- Quarta: 30 min de fala (conversar com um amigo) + 30 min de escrita (diário).\n- Sexta: 1 hora de revisão de vocabulário.\n\n**Próximo passo**: Defina seu objetivo e o tempo que pode dedicar ao estudo.",
+        "conversationId": "mg0dm13y-7q862y",
+        "conversationTitle": "me ajude com um plano de estudos em ingl…"
+      },
+      "createdAt": "2025-09-26T05:06:36.415Z"
+    },
+    {
+      "id": "9fd40fa8-594a-4a99-afb9-e53539046f9c",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "chat",
+      "payload": {
+        "nivel": "fundamental",
+        "materia": "geral",
+        "question": "Explica as leis de Newton",
+        "answer": "Claro! Aqui está um resumo das leis de Newton:\n\n### Leis de Newton\n1. **Primeira Lei (Inércia)**: Um corpo em repouso permanece em repouso, e um corpo em movimento continua em movimento, a menos que uma força externa atue sobre ele.\n2. **Segunda Lei (Força)**: A força aplicada a um objeto é igual à massa do objeto multiplicada pela aceleração (F = m × a).\n3. **Terceira Lei (Ação e Reação)**: Para toda ação, existe uma reação igual e oposta.\n\n### Exemplos Aplicados\n- **Primeira Lei**: Um livro em cima de uma mesa não se move até que alguém o empurre.\n- **Segunda Lei**: Se você empurrar uma bicicleta (massa) com mais força, ela acelera mais rápido.\n\nPróximo passo: Estude exemplos práticos dessas leis no cotidiano.",
+        "conversationId": "mg0dm13y-7q862y",
+        "conversationTitle": "me ajude com um plano de estudos em ingl…"
+      },
+      "createdAt": "2025-09-26T05:12:06.868Z"
+    },
+    {
+      "id": "0bd174c6-3645-43ca-8314-92aeab2865bb",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "chat",
+      "payload": {
+        "nivel": "fundamental",
+        "materia": "geral",
+        "question": "Leis de Newton",
+        "answer": "Claro! Vamos explorar as Leis de Newton com exercícios graduais para ajudar na compreensão.\n\n### Exercício 1: Identificação da Primeira Lei\n**Pergunta**: O que a Primeira Lei de Newton diz sobre um objeto em repouso e um objeto em movimento?  \n**Opções**:  \na) Um objeto em repouso permanece em repouso, e um objeto em movimento para.  \nb) Um objeto em repouso permanece em repouso, e um objeto em movimento continua em movimento, a menos que uma força externa atue.  \nc) Um objeto em movimento sempre acelera.  \n\n**Gabarito**: b  \n**Comentário**: A Primeira Lei de Newton, também chamada de Lei da Inércia, afirma que um corpo não muda seu estado de movimento a menos que uma força externa atue sobre ele.\n\n---\n\n### Exercício 2: Aplicação da Segunda Lei\n**Pergunta**: Se uma força de 10 N é aplicada a um objeto de 2 kg, qual é a aceleração do objeto?  \n**Cálculo**: Use a fórmula F = m × a.  \n**Opções**:  \na) 5 m/s²  \nb) 10 m/s²  \nc) 20 m/s²  \n\n**Gabarito**: a  \n**Cálculo**: F = m × a → 10 N = 2 kg × a → a = 10 N / 2 kg = 5 m/s².  \n**Comentário**: A Segunda Lei de Newton relaciona força, massa e aceleração, mostrando como a força aplicada afeta o movimento do objeto.\n\n---\n\n### Exercício 3: Compreensão da Terceira Lei\n**Pergunta**: Qual é um exemplo da Terceira Lei de Newton (Ação e Reação)?  \n**Opções**:  \na) Um carro que acelera quando o motorista pisa no acelerador.  \nb) Um foguete que sobe no espaço.  \nc) Um livro que cai quando solto de uma mesa.  \n\n**Gabarito**: b  \n**Comentário**: A Terceira Lei de Newton afirma que para toda ação existe uma reação igual e oposta. No caso do foguete, a ação é a expulsão de gases para baixo",
+        "conversationId": "mg0dm13y-7q862y",
+        "conversationTitle": "me ajude com um plano de estudos em ingl…"
+      },
+      "createdAt": "2025-09-26T05:12:57.560Z"
+    },
+    {
+      "id": "4dbfad89-e1d9-4deb-a1ee-268f4dae342e",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "summarize",
+      "payload": {
+        "text": "Claro! Aqui está um resumo das leis de Newton:\n\n### Leis de Newton\n1. **Primeira Lei (Inércia)**: Um corpo em repouso permanece em repouso, e um corpo em movimento continua em movimento, a menos que uma força externa atue sobre ele.\n2. **Segunda Lei (Força)**: A força aplicada a um objeto é igual à massa do objeto multiplicada pela aceleração (F = m × a).\n3. **Terceira Lei (Ação e Reação)**: Para toda ação, existe uma reação igual e oposta.\n\n### Exemplos Aplicados\n- **Primeira Lei**: Um livro em cima de uma mesa não se move até que alguém o empurre.\n- **Segunda Lei**: Se você empurrar uma bicicleta (massa) com mais força, ela acelera mais rápido.\n\nPróximo passo: Estude exemplos práticos dessas leis no cotidiano.",
+        "mode": "flashcards",
+        "summary": "**Flashcard 1**  \nQ: O que afirma a Primeira Lei de Newton?  \nA: Um corpo em repouso permanece em repouso e um corpo em movimento continua em movimento, a menos que uma força externa atue sobre ele.\n\n---\n\n**Flashcard 2**  \nQ: Qual é a fórmula da Segunda Lei de Newton?  \nA: F = m × a, onde F é a força, m é a massa e a é a aceleração.\n\n---\n\n**Flashcard 3**  \nQ: O que a Terceira Lei de Newton nos diz sobre ação e reação?  \nA: Para toda ação, existe uma reação igual e oposta.\n\n---\n\n**Flashcard 4**  \nQ: Dê um exemplo da Primeira Lei de Newton.  \nA: Um livro em cima de uma mesa não se move até que alguém o empurre.\n\n---\n\n**Flashcard 5**  \nQ: Como a Segunda Lei de Newton se aplica ao empurrar uma bicicleta?  \nA: Se você empurrar uma bicicleta com mais força, ela acelera mais rápido."
+      },
+      "createdAt": "2025-09-26T05:23:07.311Z"
+    },
+    {
+      "id": "93e38af6-9d6a-4b47-86a4-1de496b4013d",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "summarize",
+      "payload": {
+        "text": "Claro! Aqui está um resumo das leis de Newton:\n\n### Leis de Newton\n1. **Primeira Lei (Inércia)**: Um corpo em repouso permanece em repouso, e um corpo em movimento continua em movimento, a menos que uma força externa atue sobre ele.\n2. **Segunda Lei (Força)**: A força aplicada a um objeto é igual à massa do objeto multiplicada pela aceleração (F = m × a).\n3. **Terceira Lei (Ação e Reação)**: Para toda ação, existe uma reação igual e oposta.\n\n### Exemplos Aplicados\n- **Primeira Lei**: Um livro em cima de uma mesa não se move até que alguém o empurre.\n- **Segunda Lei**: Se você empurrar uma bicicleta (massa) com mais força, ela acelera mais rápido.\n\nPróximo passo: Estude exemplos práticos dessas leis no cotidiano.",
+        "mode": "flashcards",
+        "summary": "Aqui estão 5 flashcards baseados nas leis de Newton:\n\n**Flashcard 1**  \n**Pergunta:** O que afirma a Primeira Lei de Newton?  \n**Resposta:** Um corpo em repouso permanece em repouso, e um corpo em movimento continua em movimento, a menos que uma força externa atue sobre ele.\n\n---\n\n**Flashcard 2**  \n**Pergunta:** Qual é a fórmula da Segunda Lei de Newton?  \n**Resposta:** A fórmula é F = m × a, onde F é a força, m é a massa e a é a aceleração.\n\n---\n\n**Flashcard 3**  \n**Pergunta:** O que a Terceira Lei de Newton nos diz?  \n**Resposta:** Para toda ação, existe uma reação igual e oposta.\n\n---\n\n**Flashcard 4**  \n**Pergunta:** Dê um exemplo da Primeira Lei de Newton.  \n**Resposta:** Um livro em cima de uma mesa não se move até que alguém o empurre.\n\n---\n\n**Flashcard 5**  \n**Pergunta:** Como a Segunda Lei de Newton se aplica ao empurrar uma bicicleta?  \n**Resposta:** Se você empurrar uma bicicleta com mais força, ela acelera mais rápido devido à relação entre força, massa e aceleração."
+      },
+      "createdAt": "2025-09-26T05:23:47.332Z"
+    },
+    {
+      "id": "84127d1b-37dc-40cf-a1bf-8a23cb9e2377",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "chat",
+      "payload": {
+        "nivel": "fundamental",
+        "materia": "geral",
+        "question": "Como fazer dinheiro com pdf?",
+        "answer": "Para fazer dinheiro com PDFs, você pode seguir algumas estratégias. Aqui estão algumas ideias:\n\n1. **Criar e vender e-books**:\n   - Escreva um livro digital sobre um tema que você domina.\n   - Formate o conteúdo em PDF.\n   - Venda em plataformas como Amazon, Hotmart ou seu próprio site.\n\n2. **Oferecer cursos online**:\n   - Desenvolva um curso em PDF com materiais de apoio.\n   - Venda o curso em plataformas de ensino ou diretamente.\n\n3. **Criar guias e tutoriais**:\n   - Produza guias práticos sobre assuntos específicos.\n   - Venda esses guias em sites de venda de produtos digitais.\n\n4. **Design de templates**:\n   - Crie templates em PDF (como planners, currículos, etc.).\n   - Venda-os em plataformas como Etsy ou Creative Market.\n\n5. **Publicar relatórios ou estudos**:\n   - Realize pesquisas e compile dados em um relatório.\n   - Venda o relatório para empresas ou profissionais interessados.\n\n6. **Oferecer serviços de design**:\n   - Se você tem habilidades em design gráfico, ofereça serviços para criar PDFs personalizados para clientes.\n\n7. **Marketing de afiliados**:\n   - Crie conteúdo em PDF que promova produtos de afiliados.\n   - Inclua links de afiliados e ganhe comissões nas vendas.\n\nPróximo passo: Escolha uma estratégia que você gostaria de seguir e comece a planejar!",
+        "favorite": true,
+        "conversationId": "mg0fro9l-419gvf",
+        "conversationTitle": "Nova conversa"
+      },
+      "createdAt": "2025-09-26T06:04:35.310Z"
+    },
+    {
+      "id": "cfc58e64-eb23-40b3-a358-20d89164db22",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "summary",
+      "payload": {
+        "text": "Para fazer dinheiro com PDFs, você pode seguir algumas estratégias. Aqui estão algumas ideias:\n\n1. **Criar e vender e-books**:\n   - Escreva um livro digital sobre um tema que você domina.\n   - Formate o conteúdo em PDF.\n   - Venda em plataformas como Amazon, Hotmart ou seu próprio site.\n\n2. **Oferecer cursos online**:\n   - Desenvolva um curso em PDF com materiais de apoio.\n   - Venda o curso em plataformas de ensino ou diretamente.\n\n3. **Criar guias e tutoriais**:\n   - Produza guias práticos sobre assuntos específicos.\n   - Venda esses guias em sites de venda de produtos digitais.\n\n4. **Design de templates**:\n   - Crie templates em PDF (como planners, currículos, etc.).\n   - Venda-os em plataformas como Etsy ou Creative Market.\n\n5. **Publicar relatórios ou estudos**:\n   - Realize pesquisas e compile dados em um relatório.\n   - Venda o relatório para empresas ou profissionais interessados.\n\n6. **Oferecer serviços de design**:\n   - Se você tem habilidades em design gráfico, ofereça serviços para criar PDFs personalizados para clientes.\n\n7. **Marketing de afiliados**:\n   - Crie conteúdo em PDF que promova produtos de afiliados.\n   - Inclua links de afiliados e ganhe comissões nas vendas.\n\nPróximo passo: Escolha uma estratégia que você gostaria de seguir e comece a planejar!",
+        "mode": "flashcards",
+        "summary": "**Flashcard 1**  \n**Pergunta:** Qual é uma das maneiras de ganhar dinheiro com PDFs?  \n**Resposta:** Criar e vender e-books sobre um tema que você domina.\n\n---\n\n**Flashcard 2**  \n**Pergunta:** Como você pode monetizar cursos online usando PDFs?  \n**Resposta:** Desenvolvendo um curso em PDF com materiais de apoio e vendendo-o em plataformas de ensino.\n\n---\n\n**Flashcard 3**  \n**Pergunta:** Que tipo de conteúdo você pode criar para vender como guias?  \n**Resposta:** Guias práticos sobre assuntos específicos.\n\n---\n\n**Flashcard 4**  \n**Pergunta:** Onde você pode vender templates em PDF?  \n**Resposta:** Em plataformas como Etsy ou Creative Market.\n\n---\n\n**Flashcard 5**  \n**Pergunta:** Como o marketing de afiliados pode ser utilizado com PDFs?  \n**Resposta:** Criando conteúdo em PDF que promova produtos de afiliados e incluindo links para ganhar comissões.",
+        "favorite": false
+      },
+      "createdAt": "2025-09-26T06:05:05.150Z"
+    },
+    {
+      "id": "6564cb87-10a4-4697-8b96-bb6f3558cb48",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "chat",
+      "payload": {
+        "nivel": "fundamental",
+        "materia": "geral",
+        "question": "como ganhar dinheiro com a internet?",
+        "answer": "Ganhar dinheiro com a internet pode ser feito de várias maneiras. Aqui estão algumas opções:\n\n1. **Venda de produtos**: Você pode vender produtos físicos ou digitais. \n   - Exemplo: Criar uma loja virtual e vender camisetas personalizadas.\n\n2. **Afiliados**: Você promove produtos de outras pessoas e ganha uma comissão por cada venda feita através do seu link.\n   - Exemplo: Compartilhar um link de um livro em suas redes sociais e ganhar dinheiro se alguém comprar através desse link.\n\n3. **Freelancer**: Oferecer serviços como redação, design gráfico ou programação.\n   - Exemplo: Criar um perfil em um site de freelancer e oferecer serviços de criação de sites.\n\n4. **Criação de conteúdo**: Produzir vídeos, blogs ou podcasts e monetizá-los com anúncios.\n   - Exemplo: Criar um canal no YouTube e ganhar dinheiro com anúncios.\n\n5. **Cursos online**: Compartilhar seu conhecimento em uma área específica e vender cursos.\n   - Exemplo: Criar um curso sobre como tocar violão e vender em plataformas de ensino.\n\nPróximo passo: Escolha uma dessas opções e comece a pesquisar mais sobre como implementá-la!",
+        "favorite": false,
+        "conversationId": "mg0g7zcg-0x1zw5",
+        "conversationTitle": "Nova conversa"
+      },
+      "createdAt": "2025-09-26T06:16:52.430Z"
+    },
+    {
+      "id": "f94831c4-cc47-4bd7-9414-7308a94ca37a",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "chat",
+      "payload": {
+        "nivel": "fundamental",
+        "materia": "geral",
+        "question": "Me ajude a treinar ingles",
+        "answer": "# Treinando Inglês\n\nPara treinar inglês, você pode seguir algumas dicas simples e práticas. Aqui estão algumas sugestões:\n\n## 1. Pratique o Vocabulário\n- **Aprenda novas palavras** todos os dias.\n- Use aplicativos como Duolingo ou Memrise.\n\n## 2. Escute e Fale\n- **Ouça músicas** em inglês e tente cantar junto.\n- **Assista a filmes** ou séries com legendas em inglês.\n\n## 3. Leia em Inglês\n- **Leia livros** ou artigos simples.\n- Comece com histórias infantis ou quadrinhos.\n\n## 4. Escreva\n- **Escreva um diário** em inglês.\n- Tente descrever seu dia ou suas atividades.\n\n## 5. Pratique com Alguém\n- **Converse com amigos** que falam inglês.\n- Participe de grupos de conversação.\n\n### Exemplo Prático\nSe você aprender a palavra \"apple\" (maçã), tente usá-la em frases:\n- \"I eat an apple every day.\" (Eu como uma maçã todos os dias.)\n\n**Dica:** Tente usar novas palavras em frases para fixar o aprendizado!\n\nPróximo passo: Escolha uma dessas dicas e comece a praticar hoje!",
+        "favorite": false,
+        "conversationId": "mg0goxfr-cws4q2",
+        "conversationTitle": "Nova conversa"
+      },
+      "createdAt": "2025-09-26T06:29:33.811Z"
+    },
+    {
+      "id": "7175c57b-a476-4482-91ff-1d36628f1e58",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "summary",
+      "payload": {
+        "text": "# Treinando Inglês\n\nPara treinar inglês, você pode seguir algumas dicas simples e práticas. Aqui estão algumas sugestões:\n\n## 1. Pratique o Vocabulário\n- **Aprenda novas palavras** todos os dias.\n- Use aplicativos como Duolingo ou Memrise.\n\n## 2. Escute e Fale\n- **Ouça músicas** em inglês e tente cantar junto.\n- **Assista a filmes** ou séries com legendas em inglês.\n\n## 3. Leia em Inglês\n- **Leia livros** ou artigos simples.\n- Comece com histórias infantis ou quadrinhos.\n\n## 4. Escreva\n- **Escreva um diário** em inglês.\n- Tente descrever seu dia ou suas atividades.\n\n## 5. Pratique com Alguém\n- **Converse com amigos** que falam inglês.\n- Participe de grupos de conversação.\n\n### Exemplo Prático\nSe você aprender a palavra \"apple\" (maçã), tente usá-la em frases:\n- \"I eat an apple every day.\" (Eu como uma maçã todos os dias.)\n\n**Dica:** Tente usar novas palavras em frases para fixar o aprendizado!\n\nPróximo passo: Escolha uma dessas dicas e comece a praticar hoje!",
+        "mode": "flashcards",
+        "summary": "**Flashcard 1**  \n**Pergunta:** Quais aplicativos podem ajudar a aprender novas palavras em inglês?  \n**Resposta:** Duolingo e Memrise.\n\n---\n\n**Flashcard 2**  \n**Pergunta:** Qual é uma boa maneira de praticar a escuta e a fala em inglês?  \n**Resposta:** Ouvir músicas em inglês e tentar cantar junto.\n\n---\n\n**Flashcard 3**  \n**Pergunta:** Que tipo de leitura é recomendada para iniciantes em inglês?  \n**Resposta:** Livros ou artigos simples, como histórias infantis ou quadrinhos.\n\n---\n\n**Flashcard 4**  \n**Pergunta:** O que você pode escrever para praticar o inglês?  \n**Resposta:** Um diário em inglês, descrevendo seu dia ou atividades.\n\n---\n\n**Flashcard 5**  \n**Pergunta:** Como você pode praticar inglês com outras pessoas?  \n**Resposta:** Conversando com amigos que falam inglês ou participando de grupos de conversação.",
+        "favorite": false
+      },
+      "createdAt": "2025-09-26T06:30:07.394Z"
+    },
+    {
+      "id": "06448d8a-0cee-4f0d-be81-30d6c7c9626c",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "chat",
+      "payload": {
+        "nivel": "fundamental",
+        "materia": "geral",
+        "question": "xplique a Segunda Lei de Newton",
+        "answer": "### Segunda Lei de Newton\n\nA Segunda Lei de Newton, também conhecida como Lei da Força, diz que a força (F) aplicada a um objeto é igual à massa (m) desse objeto multiplicada pela sua aceleração (a). A fórmula é:\n\n\\[ F = m \\times a \\]\n\n#### Exemplo do Cotidiano:\nImagine que você está empurrando um carrinho de supermercado. Se você empurrar com mais força, o carrinho acelera mais rápido. Se o carrinho estiver vazio (menos massa), ele acelera mais do que se estiver cheio (mais massa).\n\n### Conexão Histórica:\nEssa lei ajudou a entender o movimento dos planetas e foi fundamental para o desenvolvimento da física moderna.\n\n**Próximo passo:** Tente pensar em outras situações do dia a dia onde você pode ver essa lei em ação!",
+        "favorite": false,
+        "conversationId": "mg0haebj-cy7szj",
+        "conversationTitle": "Explique a Segunda Lei de Newton."
+      },
+      "createdAt": "2025-09-26T06:52:55.901Z"
+    },
+    {
+      "id": "ab53faed-3a96-4d53-bb43-c16c3c09a36a",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "chat",
+      "payload": {
+        "nivel": "fundamental",
+        "materia": "geral",
+        "question": "xplique a Segunda Lei de Newton",
+        "answer": "### Segunda Lei de Newton\n\nA Segunda Lei de Newton, também conhecida como Lei da Força, diz que a força (F) aplicada a um objeto é igual à massa (m) desse objeto multiplicada pela aceleração (a) que ele recebe. A fórmula é:\n\n\\[ F = m \\times a \\]\n\n#### Exemplo:\nImagine que você está jogando um jogo de corrida. Se você acelerar seu carro (aumentar a velocidade), a força que você precisa aplicar depende do peso do carro. Um carro mais pesado (maior massa) precisa de mais força para acelerar do que um carro leve.\n\n### Conexão com História:\nAssim como na Revolução Industrial, onde máquinas mais pesadas precisavam de mais força para funcionar, a Segunda Lei de Newton nos ajuda a entender como as forças atuam no movimento.\n\n**Próximo passo:** Vamos explorar a Terceira Lei de Newton!",
+        "favorite": false,
+        "conversationId": "mg0hkmhx-mb18of",
+        "conversationTitle": "Nova conversa"
+      },
+      "createdAt": "2025-09-26T06:54:09.207Z"
+    },
+    {
+      "id": "6feb00f6-8f77-4bee-8b2d-a6268db318c8",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "chat",
+      "payload": {
+        "nivel": "fundamental",
+        "materia": "geral",
+        "question": "xplique a Segunda Lei de Newton",
+        "answer": "### Segunda Lei de Newton\n\nA Segunda Lei de Newton, ou Lei da Força, afirma que a força (F) aplicada a um objeto é igual à massa (m) desse objeto multiplicada pela aceleração (a) que ele recebe. A fórmula é:\n\n\\[ F = m \\times a \\]\n\n#### Exemplos:\n1. **Jogo de Corrida**: Se você acelera um carro pesado, precisa aplicar mais força do que em um carro leve para conseguir a mesma aceleração.\n2. **Lançamento de uma Bola**: Ao chutar uma bola de futebol, a força que você aplica determina a aceleração da bola. Uma bola mais pesada (maior massa) requer mais força para acelerar.\n\n### Conexão com História:\nNa época das guerras, canhões precisavam de mais força para disparar projéteis pesados, ilustrando a relação entre força, massa e aceleração.\n\n**Próximo passo:** Vamos praticar com alguns exercícios!",
+        "favorite": false,
+        "conversationId": "mg0hkmhx-mb18of",
+        "conversationTitle": "xplique a Segunda Lei de Newton"
+      },
+      "createdAt": "2025-09-26T06:57:31.159Z"
+    },
+    {
+      "id": "7fde6b0d-77f0-4fbc-b014-1710f7e19e3b",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "chat",
+      "payload": {
+        "nivel": "fundamental",
+        "materia": "geral",
+        "question": "xplique a Segunda Lei de Newton",
+        "answer": "### Segunda Lei de Newton\n\nA Segunda Lei de Newton, ou Lei da Força, diz que a força (F) aplicada a um objeto é igual à massa (m) desse objeto multiplicada pela aceleração (a) que ele recebe. A fórmula é:\n\n\\[ F = m \\times a \\]\n\n#### Exemplos:\n1. **Jogo de Corrida**: Ao acelerar um carro pesado, você precisa aplicar mais força do que em um carro leve para obter a mesma aceleração.\n2. **Lançamento de uma Bola**: Quando você chuta uma bola, a força que aplica determina a aceleração. Uma bola mais pesada exige mais força para acelerar.\n\n### Conexão com História:\nNa Revolução Industrial, máquinas pesadas precisavam de mais força para funcionar, mostrando a importância dessa lei.\n\n**Próximo passo:** Vamos ver como aplicar essa lei em situações do dia a dia!",
+        "favorite": false,
+        "conversationId": "mg0hkmhx-mb18of",
+        "conversationTitle": "xplique a Segunda Lei de Newton"
+      },
+      "createdAt": "2025-09-26T06:58:46.324Z"
+    },
+    {
+      "id": "ce1834e3-b00a-4de6-855f-f2d884666cb7",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "chat",
+      "payload": {
+        "nivel": "fundamental",
+        "materia": "geral",
+        "question": "Bora",
+        "answer": "### Vamos lá!\n\nÓtimo que você está animado! Vamos aplicar a Segunda Lei de Newton em situações do dia a dia.\n\n#### Situações Práticas:\n1. **Empurrando um Carrinho de Compras**:\n   - Um carrinho vazio (menor massa) é mais fácil de empurrar do que um cheio (maior massa). Você precisa aplicar mais força para mover o carrinho cheio.\n\n2. **Andando de Bicicleta**:\n   - Se você pedala mais forte (mais força), sua bicicleta acelera mais rápido. Se você estiver carregando uma mochila pesada (maior massa), precisará pedalar ainda mais forte.\n\n### Conexão com História:\nNa antiguidade, os romanos usavam força para mover grandes pedras na construção de estradas e aquedutos, mostrando a aplicação da força e massa.\n\n**Próximo passo:** Que tal resolver um exercício sobre isso?",
+        "favorite": false,
+        "conversationId": "mg0hkmhx-mb18of",
+        "conversationTitle": "xplique a Segunda Lei de Newton"
+      },
+      "createdAt": "2025-09-26T06:59:10.082Z"
+    },
+    {
+      "id": "c318c85f-9430-437a-9144-cfa0eb860fa9",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "chat",
+      "payload": {
+        "nivel": "fundamental",
+        "materia": "geral",
+        "question": "Pode ser",
+        "answer": "### Exercício sobre a Segunda Lei de Newton\n\n**Pergunta:** Um carro de corrida tem uma massa de 800 kg e precisa de uma força de 3200 N para acelerar. Qual é a aceleração do carro?\n\n#### Passo a Passo:\n\n1. **Identificar os dados**:\n   - Massa (m) = 800 kg\n   - Força (F) = 3200 N\n\n2. **Usar a fórmula da Segunda Lei de Newton**:\n   \\[ F = m \\times a \\]\n\n3. **Isolar a aceleração (a)**:\n   \\[ a = \\frac{F}{m} \\]\n\n4. **Substituir os valores**:\n   \\[ a = \\frac{3200 \\, N}{800 \\, kg} \\]\n\n5. **Calcular**:\n   \\[ a = 4 \\, m/s² \\]\n\n### Resposta:\nA aceleração do carro é de **4 m/s²**.\n\n**Próximo passo:** Vamos fazer mais um exercício ou revisar algum conceito!",
+        "favorite": false,
+        "conversationId": "mg0hkmhx-mb18of",
+        "conversationTitle": "xplique a Segunda Lei de Newton"
+      },
+      "createdAt": "2025-09-26T06:59:44.664Z"
+    },
+    {
+      "id": "e76014d4-4ed0-4d6b-b5a2-392e34867d6a",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "chat",
+      "payload": {
+        "nivel": "fundamental",
+        "materia": "geral",
+        "question": "Sim",
+        "answer": "### Exercícios sobre a Segunda Lei de Newton\n\n**Exercício 1:** Um jogador de futebol chuta uma bola de 0,5 kg com uma força de 10 N. Qual é a aceleração da bola?\n\n1. **Identificar os dados**:\n   - Massa (m) = 0,5 kg\n   - Força (F) = 10 N\n\n2. **Usar a fórmula**:\n   \\[ a = \\frac{F}{m} \\]\n\n3. **Calcular**:\n   \\[ a = \\frac{10 \\, N}{0,5 \\, kg} = 20 \\, m/s² \\]\n\n**Resposta:** A aceleração da bola é de **20 m/s²**.\n\n---\n\n**Exercício 2:** Um carrinho de brinquedo de 2 kg é puxado com uma força de 6 N. Qual é a aceleração do carrinho?\n\n1. **Identificar os dados**:\n   - Massa (m) = 2 kg\n   - Força (F) = 6 N\n\n2. **Calcular**:\n   \\[ a = \\frac{6 \\, N}{2 \\, kg} = 3 \\, m/s² \\]\n\n**Resposta:** A aceleração do carrinho é de **3 m/s²**.\n\n---\n\n**Exercício 3:** Um atleta empurra um peso de 50 kg com uma força de 200 N. Qual é a aceleração do peso?\n\n1. **Identificar os dados**:\n   - Massa (m) = 50 kg\n   - Força (F) = 200 N\n\n2. **Calcular**:\n   \\[ a = \\frac{200 \\, N}{50 \\, kg} = 4 \\, m/s² \\]\n\n**Resposta:** A aceleração do peso é de **4 m/s²**.\n\n---\n\n**Parabéns!** Você está indo muito bem! Vamos continuar praticando ou revisar algo específico? \n\n**Próximo passo:** Escolha um exercício ou conceito para aprofundar!",
+        "favorite": false,
+        "conversationId": "mg0hkmhx-mb18of",
+        "conversationTitle": "xplique a Segunda Lei de Newton"
+      },
+      "createdAt": "2025-09-26T07:01:06.680Z"
+    },
+    {
+      "id": "9c77332b-b3ee-4c9c-9e92-e248404472bc",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "chat",
+      "payload": {
+        "nivel": "fundamental",
+        "materia": "geral",
+        "question": "Explique as leis de Newton",
+        "answer": "Claro! As leis de Newton são três princípios fundamentais que explicam como os objetos se movem. Vamos a elas:\n\n### 1. Primeira Lei (Inércia)\nUm objeto em repouso fica em repouso e um objeto em movimento continua em movimento, a menos que uma força externa atue sobre ele.\n- **Exemplo:** Em um jogo de futebol, a bola só para quando alguém a chuta (força externa).\n\n### 2. Segunda Lei (F=ma)\nA força que atua sobre um objeto é igual à massa do objeto multiplicada pela sua aceleração.\n- **Exemplo:** Se você empurrar um carrinho de compras, quanto mais forte você empurrar (força), mais rápido ele vai (aceleração).\n\n### 3. Terceira Lei (Ação e Reação)\nPara cada ação, existe uma reação igual e oposta.\n- **Exemplo:** Quando você pula de um barco, o barco se afasta na direção oposta.\n\nEssas leis ajudam a entender não só jogos, mas também eventos históricos, como a trajetória de um canhão em batalhas!\n\n**Próximo passo:** Que tal pensar em mais exemplos de jogos que mostram essas leis?",
+        "favorite": false,
+        "conversationId": "mg1jqjnf-79u02d",
+        "conversationTitle": "Nova conversa"
+      },
+      "createdAt": "2025-09-27T00:52:55.472Z"
+    },
+    {
+      "id": "2acd5113-6617-42e9-9805-03a50f7fc8f3",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "chat",
+      "payload": {
+        "nivel": "fundamental",
+        "materia": "geral",
+        "question": "Pode resumir ?",
+        "answer": "Claro! Vamos resumir as leis de Newton em pontos principais:\n\n### 1. Primeira Lei (Inércia)\n- Um objeto em repouso ou em movimento continua assim, a menos que uma força externa atue.\n- **Exemplo:** A bola de futebol para quando alguém a chuta.\n\n### 2. Segunda Lei (F=ma)\n- A força é igual à massa vezes a aceleração.\n- **Exemplo:** Empurrar um carrinho de compras mais forte faz ele acelerar mais.\n\n### 3. Terceira Lei (Ação e Reação)\n- Para cada ação, há uma reação igual e oposta.\n- **Exemplo:** Ao pular de um barco, ele se afasta na direção oposta.\n\nEssas leis são fundamentais para entender movimentos em jogos e na História!\n\n**Próximo passo:** Que tal pensar em como essas leis se aplicam em um jogo que você gosta?",
+        "favorite": false,
+        "conversationId": "mg1jqjnf-79u02d",
+        "conversationTitle": "Explique as leis de Newton"
+      },
+      "createdAt": "2025-09-27T00:57:02.374Z"
+    },
+    {
+      "id": "b14e86c9-973f-4cf4-bf97-981e56b623fa",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "chat",
+      "payload": {
+        "nivel": "fundamental",
+        "materia": "geral",
+        "question": "Bíblia  \nSagrada  \nHARPA AVIVADA E CORINTHOS",
+        "answer": "Olá! Vamos falar sobre a Bíblia Sagrada e sua importância, assim como a música \"Harpa Avivada\". \n\n### Bíblia Sagrada\n- **O que é?** É um livro que contém textos religiosos e histórias que guiam a fé de muitas pessoas.\n- **Exemplo:** Assim como em um jogo, onde você tem um manual que explica as regras e a história do mundo, a Bíblia serve como um guia para a vida.\n\n### Harpa Avivada\n- **O que é?** É um livro de cânticos e hinos que expressam louvor e adoração.\n- **Exemplo:** Pense em como uma trilha sonora pode deixar um jogo mais emocionante; as músicas ajudam a criar um ambiente de fé e alegria.\n\n### Corinthos\n- **O que é?** É uma cidade mencionada na Bíblia, onde Paulo escreveu cartas para os cristãos.\n- **Exemplo:** Assim como em um jogo onde você tem missões em diferentes cidades, as cartas de Paulo trazem ensinamentos importantes.\n\n**Próximo passo:** Que tal explorar uma história da Bíblia e ver como ela se conecta com jogos que você gosta?",
+        "favorite": false,
+        "conversationId": "mg1ku5dn-533ebb",
+        "conversationTitle": "Nova conversa"
+      },
+      "createdAt": "2025-09-27T01:18:17.079Z"
+    },
+    {
+      "id": "bdbf6fee-59fa-48f9-9a33-54b352e6d271",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "chat",
+      "payload": {
+        "nivel": "fundamental",
+        "materia": "geral",
+        "question": "Preciso de conselhos! Perdi meu alcance inteiro no Instagram! Vivo postando esses absurdos da esquerda, e as injustiças contra a direita, mas percebo que virei o “amigo “chato! O cara que só fala de política! Colegas que estão de olhos fechados, acreditando que nem Lula nem Bolsonaro presta! Perdi meu alcance, me sinto sem voz. Frustração batendo no teto. Enquanto isso pessoas que apoiam a esquerda, a injustiça, ou se calam, ou ganham aplausos... estou cansado, farto, querendo mais que tudo se foda mesmo. Me sentindo pequeno! Sinceramente gostaria de bons conselhos! Gostaria de ser voz, mas me tornei irrelevante. Sinceramente decepcionado com as pessoas...",
+        "answer": "Entendo que você está se sentindo frustrado e sem voz. Isso é normal, especialmente quando falamos sobre temas polêmicos como política. Aqui estão algumas dicas que podem te ajudar:\n\n### Dicas para Melhorar sua Comunicação\n1. **Varie os Temas**: Tente falar sobre outros assuntos que você gosta, como hobbies ou jogos. Isso pode atrair mais pessoas.\n2. **Escute os Outros**: Pergunte o que seus amigos pensam. Isso pode abrir espaço para um diálogo mais construtivo.\n3. **Use Humor**: Às vezes, uma abordagem leve pode fazer as pessoas se interessarem mais pelo que você tem a dizer.\n4. **Seja Autêntico**: Fale sobre o que realmente importa para você, mas sem forçar a barra.\n\nLembre-se, todos têm momentos de desânimo, mas você pode se reinventar! \n\n**Próximo passo:** Que tal compartilhar algo que você ama, como um jogo ou hobby, e ver como as pessoas reagem?",
+        "favorite": false,
+        "conversationId": "mg1ku5dn-533ebb",
+        "conversationTitle": "Bíblia  \nSagrada  \nHARPA AVIVADA E CORIN…"
+      },
+      "createdAt": "2025-09-27T03:45:57.958Z"
+    },
+    {
+      "id": "00acf570-4030-4e83-b646-b14f6e27384e",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "summary",
+      "payload": {
+        "text": "Entendo que você está se sentindo frustrado e sem voz. Isso é normal, especialmente quando falamos sobre temas polêmicos como política. Aqui estão algumas dicas que podem te ajudar:\n\n### Dicas para Melhorar sua Comunicação\n1. **Varie os Temas**: Tente falar sobre outros assuntos que você gosta, como hobbies ou jogos. Isso pode atrair mais pessoas.\n2. **Escute os Outros**: Pergunte o que seus amigos pensam. Isso pode abrir espaço para um diálogo mais construtivo.\n3. **Use Humor**: Às vezes, uma abordagem leve pode fazer as pessoas se interessarem mais pelo que você tem a dizer.\n4. **Seja Autêntico**: Fale sobre o que realmente importa para você, mas sem forçar a barra.\n\nLembre-se, todos têm momentos de desânimo, mas você pode se reinventar! \n\n**Próximo passo:** Que tal compartilhar algo que você ama, como um jogo ou hobby, e ver como as pessoas reagem?",
+        "mode": "flashcards",
+        "summary": "**Flashcard 1**  \n**Pergunta:** O que fazer para atrair mais pessoas para a conversa?  \n**Resposta:** Varie os temas e fale sobre assuntos que você gosta, como hobbies ou jogos.\n\n---\n\n**Flashcard 2**  \n**Pergunta:** Qual a importância de ouvir os outros em uma conversa?  \n**Resposta:** Perguntar o que seus amigos pensam pode abrir espaço para um diálogo mais construtivo.\n\n---\n\n**Flashcard 3**  \n**Pergunta:** Como o humor pode ajudar na comunicação?  \n**Resposta:** Uma abordagem leve pode fazer as pessoas se interessarem mais pelo que você tem a dizer.\n\n---\n\n**Flashcard 4**  \n**Pergunta:** O que significa ser autêntico na comunicação?  \n**Resposta:** Falar sobre o que realmente importa para você, sem forçar a barra.\n\n---\n\n**Flashcard 5**  \n**Pergunta:** Qual é um bom próximo passo para melhorar a comunicação?  \n**Resposta:** Compartilhar algo que você ama, como um jogo ou hobby, e observar a reação das pessoas.",
+        "favorite": false
+      },
+      "createdAt": "2025-09-27T04:12:27.028Z"
+    },
+    {
+      "id": "caf6c410-daf1-406f-ab74-2f83e2ba4875",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "chat",
+      "payload": {
+        "nivel": "fundamental",
+        "materia": "geral",
+        "question": "Podem me explicar as leis de Newton?",
+        "answer": "Claro! As leis de Newton são fundamentais para entender como os objetos se movem. Vamos lá:\n\n### 1. Primeira Lei (Inércia)\n- **O que diz?** Um objeto em repouso fica em repouso, e um objeto em movimento continua em movimento, a menos que uma força externa atue sobre ele.\n- **Exemplo:** Pense em um carro em movimento. Se o motorista não frear, o carro continuará se movendo.\n\n### 2. Segunda Lei (Força)\n- **O que diz?** A força é igual à massa do objeto multiplicada pela aceleração (F = m × a).\n- **Exemplo:** Se você empurrar um carro (massa maior) e uma bicicleta (massa menor), a bicicleta se moverá mais facilmente.\n\n### 3. Terceira Lei (Ação e Reação)\n- **O que diz?** Para cada ação, há uma reação igual e oposta.\n- **Exemplo:** Quando você pula, seus pés empurram o chão para baixo, e o chão empurra você para cima.\n\nEssas leis ajudam a entender muitos aspectos do mundo, assim como as regras de um jogo ajudam a jogar melhor!\n\n**Próximo passo:** Que tal pensar em um exemplo do seu dia a dia que se encaixa em uma dessas leis?",
+        "favorite": false,
+        "conversationId": "mg1ku5dn-533ebb",
+        "conversationTitle": "Bíblia  \nSagrada  \nHARPA AVIVADA E CORIN…"
+      },
+      "createdAt": "2025-09-27T04:19:49.903Z"
+    },
+    {
+      "id": "f75254fe-cfc0-419c-99ab-106617c0b51e",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "chat",
+      "payload": {
+        "nivel": "fundamental",
+        "materia": "geral",
+        "question": "Em que ano o Pelé ganhou a copa?",
+        "answer": "Pelé, um dos maiores jogadores de futebol de todos os tempos, ganhou a Copa do Mundo em três ocasiões. Vamos ver os anos em que ele conquistou esse título:\n\n### Anos em que Pelé ganhou a Copa do Mundo:\n1. **1958** - Suécia\n2. **1962** - Chile\n3. **1970** - México\n\n### Detalhes sobre cada conquista:\n- **1958**: Pelé tinha apenas 17 anos e se destacou como um jovem prodígio. Ele marcou seis gols durante o torneio, ajudando o Brasil a vencer a Suécia na final por 5 a 2.\n- **1962**: Pelé se machucou no segundo jogo, mas mesmo assim, o Brasil conseguiu vencer a Copa novamente, desta vez derrotando a Tchecoslováquia na final.\n- **1970**: Esta foi a sua terceira e última Copa do Mundo, e Pelé foi fundamental para a vitória do Brasil, marcando gols e dando assistências. O Brasil venceu a Itália por 4 a 1 na final.\n\n### Conexão com Jogos\nAssim como em um jogo, onde você precisa de habilidades, estratégia e um bom time para vencer, Pelé e sua equipe mostraram que o trabalho em equipe e a dedicação são essenciais para alcançar grandes conquistas. Cada Copa do Mundo que ele ganhou é como um nível superado em um jogo, onde ele se tornou um verdadeiro campeão!\n\n**Próximo passo:** Que tal me contar qual é o seu jogador favorito e o que você admira nele?",
+        "favorite": false,
+        "conversationId": "mg1ku5dn-533ebb",
+        "conversationTitle": "Bíblia  \nSagrada  \nHARPA AVIVADA E CORIN…"
+      },
+      "createdAt": "2025-09-27T04:45:45.518Z"
+    },
+    {
+      "id": "30722fd8-ca19-47b4-8bfd-68b14fa74892",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "summary",
+      "payload": {
+        "text": "Pelé, um dos maiores jogadores de futebol de todos os tempos, ganhou a Copa do Mundo em três ocasiões. Vamos ver os anos em que ele conquistou esse título:\n\n### Anos em que Pelé ganhou a Copa do Mundo:\n1. **1958** - Suécia\n2. **1962** - Chile\n3. **1970** - México\n\n### Detalhes sobre cada conquista:\n- **1958**: Pelé tinha apenas 17 anos e se destacou como um jovem prodígio. Ele marcou seis gols durante o torneio, ajudando o Brasil a vencer a Suécia na final por 5 a 2.\n- **1962**: Pelé se machucou no segundo jogo, mas mesmo assim, o Brasil conseguiu vencer a Copa novamente, desta vez derrotando a Tchecoslováquia na final.\n- **1970**: Esta foi a sua terceira e última Copa do Mundo, e Pelé foi fundamental para a vitória do Brasil, marcando gols e dando assistências. O Brasil venceu a Itália por 4 a 1 na final.\n\n### Conexão com Jogos\nAssim como em um jogo, onde você precisa de habilidades, estratégia e um bom time para vencer, Pelé e sua equipe mostraram que o trabalho em equipe e a dedicação são essenciais para alcançar grandes conquistas. Cada Copa do Mundo que ele ganhou é como um nível superado em um jogo, onde ele se tornou um verdadeiro campeão!\n\n**Próximo passo:** Que tal me contar qual é o seu jogador favorito e o que você admira nele?",
+        "mode": "flashcards",
+        "summary": "**Flashcard 1**  \n**Pergunta:** Em quantas Copas do Mundo Pelé foi campeão?  \n**Resposta:** Pelé foi campeão em três Copas do Mundo.\n\n---\n\n**Flashcard 2**  \n**Pergunta:** Quais foram os anos em que Pelé ganhou a Copa do Mundo?  \n**Resposta:** 1958, 1962 e 1970.\n\n---\n\n**Flashcard 3**  \n**Pergunta:** Quantos gols Pelé marcou na Copa do Mundo de 1958?  \n**Resposta:** Pelé marcou seis gols na Copa do Mundo de 1958.\n\n---\n\n**Flashcard 4**  \n**Pergunta:** Qual foi o resultado da final da Copa do Mundo de 1970, onde Pelé participou?  \n**Resposta:** O Brasil venceu a Itália por 4 a 1 na final de 1970.\n\n---\n\n**Flashcard 5**  \n**Pergunta:** O que Pelé demonstrou em suas conquistas, segundo o texto?  \n**Resposta:** Pelé demonstrou que trabalho em equipe e dedicação são essenciais para alcançar grandes conquistas.",
+        "favorite": false
+      },
+      "createdAt": "2025-09-27T04:46:15.489Z"
+    },
+    {
+      "id": "01344507-b4d2-4237-98ad-99a17248d4b2",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "planner",
+      "payload": {
+        "nivel": "fundamental",
+        "materia": "inglês",
+        "dataProva": "2025-10-04",
+        "plan": {
+          "dias": [
+            {
+              "data": "28-09-2025",
+              "tarefas": [
+                "inglês: revisão dos conceitos-chave (nível fundamental) — 45–60min",
+                "Exercícios direcionados — 30–45min",
+                "Notas dos erros e dúvidas — 10–15min"
+              ]
+            },
+            {
+              "data": "28-09-2025",
+              "tarefas": [
+                "inglês: exercícios práticos (nível fundamental) — 45–60min",
+                "Exercícios direcionados — 30–45min",
+                "Notas dos erros e dúvidas — 10–15min"
+              ]
+            },
+            {
+              "data": "29-09-2025",
+              "tarefas": [
+                "inglês: correção dos erros (nível fundamental) — 45–60min",
+                "Exercícios direcionados — 30–45min",
+                "Notas dos erros e dúvidas — 10–15min"
+              ]
+            },
+            {
+              "data": "30-09-2025",
+              "tarefas": [
+                "inglês: flashcards de termos (nível fundamental) — 45–60min",
+                "Exercícios direcionados — 30–45min",
+                "Notas dos erros e dúvidas — 10–15min"
+              ]
+            },
+            {
+              "data": "01-10-2025",
+              "tarefas": [
+                "inglês: leitura de resumo (nível fundamental) — 45–60min",
+                "Exercícios direcionados — 30–45min",
+                "Notas dos erros e dúvidas — 10–15min"
+              ]
+            },
+            {
+              "data": "02-10-2025",
+              "tarefas": [
+                "inglês: exercícios de prova anterior (nível fundamental) — 45–60min",
+                "Exercícios direcionados — 30–45min",
+                "Notas dos erros e dúvidas — 10–15min"
+              ]
+            },
+            {
+              "data": "03-10-2025",
+              "tarefas": [
+                "inglês: mapa mental (nível fundamental) — 45–60min",
+                "Exercícios direcionados — 30–45min",
+                "Notas dos erros e dúvidas — 10–15min"
+              ]
+            }
+          ],
+          "observacoes": "Plano local (fallback) até 2025-10-04. Distribua 5h/semana, faça 1 simulado curto na reta final e priorize revisão de erros."
+        },
+        "mode": "fallback"
+      },
+      "createdAt": "2025-09-27T05:12:35.149Z"
+    },
+    {
+      "id": "f1f70ea4-10cd-4b86-8cc1-40aaa7eca3cb",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "chat",
+      "payload": {
+        "nivel": "fundamental",
+        "materia": "geral",
+        "question": "Pode pesquisar para mim em que ano foi que acabou a segunda guerra mundial.",
+        "answer": "A Segunda Guerra Mundial, um dos conflitos mais significativos da história, terminou em **1945**. Vamos entender melhor esse evento e sua importância.\n\n### Fatos sobre o fim da Segunda Guerra Mundial:\n1. **Data do Fim**: A guerra na Europa terminou em **8 de maio de 1945**, conhecido como Dia da Vitória na Europa (VE Day), quando as forças aliadas aceitaram a rendição incondicional da Alemanha.\n2. **Guerra no Pacífico**: A guerra continuou no Pacífico até **2 de setembro de 1945**, quando o Japão se rendeu após os bombardeios atômicos de Hiroshima e Nagasaki. Essa rendição é lembrada como o Dia da Vitória sobre o Japão (VJ Day).\n3. **Consequências**: O fim da guerra levou à criação da Organização das Nações Unidas (ONU) em 1945, com o objetivo de promover a paz e evitar futuros conflitos.\n\n### Conexão com Jogos\nAssim como em muitos jogos de estratégia, onde você precisa tomar decisões importantes e formar alianças para vencer, a Segunda Guerra Mundial envolveu muitos países que se uniram para derrotar potências do Eixo, como a Alemanha e o Japão. Cada batalha e estratégia era crucial, assim como em um jogo onde cada movimento pode determinar o resultado final.\n\n### Exemplo de Jogo\nImagine um jogo de estratégia em que você deve unir forças com outros jogadores para derrotar um inimigo comum. Cada decisão que você toma pode mudar o curso do jogo, assim como as alianças formadas durante a guerra mudaram o destino do mundo.\n\n**Próximo passo:** Que tal pesquisar mais sobre um evento específico da Segunda Guerra Mundial que você acha interessante?",
+        "favorite": false,
+        "conversationId": "mg1ku5dn-533ebb",
+        "conversationTitle": "Bíblia  \nSagrada  \nHARPA AVIVADA E CORIN…"
+      },
+      "createdAt": "2025-09-27T05:40:58.720Z"
+    },
+    {
+      "id": "939420e6-770e-4935-934e-c7d312edf08d",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "planner",
+      "payload": {
+        "nivel": "fundamental",
+        "materia": "História / Religião",
+        "dataProva": "2025-10-04",
+        "plan": {
+          "dias": [
+            {
+              "data": "28-09-2025",
+              "tarefas": [
+                "História: Segunda Guerra Mundial — 36min",
+                "História: Consequências da guerra — 24min"
+              ]
+            },
+            {
+              "data": "28-09-2025",
+              "tarefas": [
+                "Religião: Bíblia Sagrada — 36min",
+                "Religião: Harpa Avivada — 24min"
+              ]
+            },
+            {
+              "data": "29-09-2025",
+              "tarefas": [
+                "História: Segunda Guerra Mundial — 36min",
+                "História: Consequências da guerra — 24min"
+              ]
+            },
+            {
+              "data": "30-09-2025",
+              "tarefas": [
+                "Religião: Bíblia Sagrada — 36min",
+                "Religião: Harpa Avivada — 24min"
+              ]
+            },
+            {
+              "data": "01-10-2025",
+              "tarefas": [
+                "História: Segunda Guerra Mundial — 36min",
+                "História: Consequências da guerra — 24min"
+              ]
+            },
+            {
+              "data": "02-10-2025",
+              "tarefas": [
+                "Religião: Bíblia Sagrada — 36min",
+                "Religião: Harpa Avivada — 24min"
+              ]
+            },
+            {
+              "data": "03-10-2025",
+              "tarefas": [
+                "História: Segunda Guerra Mundial — 36min",
+                "História: Consequências da guerra — 24min"
+              ]
+            }
+          ],
+          "observacoes": "Plano local gerado automaticamente (fallback) até 03-10-2025. Mantenha constância e faça revisão dos erros."
+        },
+        "mode": "compose-fallback",
+        "origem": "plan-basket"
+      },
+      "createdAt": "2025-09-27T05:45:06.771Z"
+    },
+    {
+      "id": "78445092-3631-4563-bba8-8038213459b9",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "chat",
+      "payload": {
+        "nivel": "fundamental",
+        "materia": "geral",
+        "question": "Olá",
+        "answer": "Olá! Que bom te ver aqui! 😊 Vamos conversar sobre algo interessante? \n\n### Jogos e Aprendizado\n- **Como os jogos ensinam?** Eles têm histórias, desafios e personagens que nos ajudam a aprender.\n- **Exemplo:** Em um jogo de aventura, você pode aprender sobre trabalho em equipe ao jogar com amigos.\n\n### Conexão com História\n- **Histórias nos jogos:** Muitas vezes, os jogos se inspiram em eventos históricos, como guerras ou descobertas.\n- **Exemplo:** Em um jogo de estratégia, você pode ver como líderes históricos tomaram decisões importantes.\n\nLembre-se, aprender pode ser tão divertido quanto jogar! \n\n**Próximo passo:** Que tal me contar sobre um jogo que você gosta e o que aprendeu com ele?",
+        "favorite": true,
+        "conversationId": "mg1ku5dn-533ebb",
+        "conversationTitle": "Bíblia  \nSagrada  \nHARPA AVIVADA E CORIN…"
+      },
+      "createdAt": "2025-09-27T01:36:15.159Z"
+    },
+    {
+      "id": "728e26be-c06f-4b3e-bc33-7bace34121ad",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "summary",
+      "payload": {
+        "text": "Olá! Que bom te ver aqui! 😊 Vamos conversar sobre algo interessante? \n\n### Jogos e Aprendizado\n- **Como os jogos ensinam?** Eles têm histórias, desafios e personagens que nos ajudam a aprender.\n- **Exemplo:** Em um jogo de aventura, você pode aprender sobre trabalho em equipe ao jogar com amigos.\n\n### Conexão com História\n- **Histórias nos jogos:** Muitas vezes, os jogos se inspiram em eventos históricos, como guerras ou descobertas.\n- **Exemplo:** Em um jogo de estratégia, você pode ver como líderes históricos tomaram decisões importantes.\n\nLembre-se, aprender pode ser tão divertido quanto jogar! \n\n**Próximo passo:** Que tal me contar sobre um jogo que você gosta e o que aprendeu com ele?",
+        "mode": "flashcards",
+        "summary": "**Flashcard 1**  \n**Pergunta:** Como os jogos ajudam no aprendizado?  \n**Resposta:** Eles têm histórias, desafios e personagens que facilitam o aprendizado.\n\n---\n\n**Flashcard 2**  \n**Pergunta:** Qual é um exemplo de aprendizado em jogos?  \n**Resposta:** Em um jogo de aventura, você pode aprender sobre trabalho em equipe jogando com amigos.\n\n---\n\n**Flashcard 3**  \n**Pergunta:** De onde os jogos costumam tirar inspiração para suas histórias?  \n**Resposta:** Muitos jogos se inspiram em eventos históricos, como guerras ou descobertas.\n\n---\n\n**Flashcard 4**  \n**Pergunta:** Como um jogo de estratégia pode ensinar sobre história?  \n**Resposta:** Ele pode mostrar como líderes históricos tomaram decisões importantes.\n\n---\n\n**Flashcard 5**  \n**Pergunta:** O que o texto sugere sobre aprender e jogar?  \n**Resposta:** Aprender pode ser tão divertido quanto jogar.",
+        "favorite": false
+      },
+      "createdAt": "2025-09-27T06:37:23.353Z"
+    },
+    {
+      "id": "f3799ff2-3b56-40ca-80ff-3c21cbf4dd7f",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "chat",
+      "payload": {
+        "nivel": "fundamental",
+        "materia": "geral",
+        "question": "Planejo meu dia.",
+        "answer": "# Planejando o Seu Dia\n\nPlanejar o dia é uma habilidade muito importante que pode ajudar você a ser mais produtivo e a aproveitar melhor o seu tempo. Vamos entender como fazer isso de uma maneira simples e divertida, usando exemplos do mundo dos jogos!\n\n## Por que Planejar é Importante?\n\n1. **Organização**: Assim como em um jogo, onde você precisa organizar suas estratégias para vencer, planejar o dia ajuda a organizar suas tarefas.\n2. **Foco**: Em jogos, você precisa se concentrar em uma missão para avançar. Planejar ajuda a manter o foco nas atividades que você precisa realizar.\n3. **Eficiência**: Quando você sabe o que precisa fazer, pode completar suas tarefas mais rapidamente, assim como em um jogo onde você aprende a usar as habilidades do seu personagem de forma eficaz.\n\n## Como Planejar o Seu Dia\n\nAqui estão algumas etapas simples para planejar o seu dia:\n\n### 1. **Faça uma Lista de Tarefas**\n   - Anote tudo o que você precisa fazer. Por exemplo:\n     - Estudar matemática\n     - Fazer a lição de casa de português\n     - Jogar um pouco de seu jogo favorito (como recompensa!)\n  \n### 2. **Priorize as Tarefas**\n   - Decida quais tarefas são mais importantes. Você pode usar um sistema de estrelas:\n     - ⭐️ Estudar matemática (importante)\n     - ⭐️ Fazer a lição de casa de português (importante)\n     - ⭐️⭐️ Jogar (recompensa)\n\n### 3. **Defina Horários**\n   - Estabeleça um tempo para cada tarefa. Por exemplo:\n     - 8h – 9h: Estudar matemática\n     - 9h – 10h: Fazer a lição de casa de português\n     - 10h – 11h: Jogar\n\n### 4. **Revise e Ajuste**\n   - Ao final do dia, veja o que você conseguiu fazer e o que pode ser melhorado. Isso é como revisar sua estratégia em um jogo para ver onde você pode melhorar.\n\n## Exemplo Prático\n\nImagine que você está jogando um jogo de aventura, como \"The Legend of Zelda\". Para completar uma missão, você precisa coletar itens, resolver quebra-cabeças e derrot",
+        "favorite": false,
+        "conversationId": "mg1y7vey-cnjqvt",
+        "conversationTitle": "Nova conversa"
+      },
+      "createdAt": "2025-09-27T07:28:31.743Z"
+    },
+    {
+      "id": "cd46bc92-fc16-44b5-a522-d29cb5a951f8",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "chat",
+      "payload": {
+        "nivel": "fundamental",
+        "materia": "geral",
+        "question": "Routimo, eu gostaria de me exercitar, acordar cedo, estudar um pouco, aprender coisas novas e tirar um tempo para o lazer. Tudo isso dividido de segunda a sexta. Você pode pensar em um cronograma elaborado para mim com essas coisas.",
+        "answer": "# Cronograma Semanal para um Dia Produtivo\n\nQue ótimo que você quer se exercitar, estudar e ainda ter tempo para o lazer! Vamos criar um cronograma que te ajude a organizar tudo isso de forma equilibrada e divertida. Assim como em um jogo, onde você precisa distribuir suas ações para avançar, você também pode fazer isso na sua rotina!\n\n## Estrutura do Cronograma\n\n### Segunda a Sexta\n\nAqui está uma sugestão de cronograma que você pode seguir:\n\n| Horário       | Atividade                     |\n|---------------|-------------------------------|\n| **06:00 - 06:30** | Acordar e fazer um alongamento |\n| **06:30 - 07:00** | Exercício físico (corrida, bicicleta, etc.) |\n| **07:00 - 08:00** | Café da manhã e higiene pessoal |\n| **08:00 - 09:00** | Estudo (matérias escolares) |\n| **09:00 - 10:00** | Aprender algo novo (um novo idioma, por exemplo) |\n| **10:00 - 10:30** | Lazer (jogar um jogo ou ler um livro) |\n| **10:30 - 12:00** | Estudo (lição de casa ou revisão) |\n| **12:00 - 13:00** | Almoço e descanso |\n| **13:00 - 15:00** | Estudo (projetos ou pesquisas) |\n| **15:00 - 16:00** | Lazer (jogar um jogo ou praticar um hobby) |\n| **16:00 - 17:00** | Revisão do dia e planejamento do dia seguinte |\n| **17:00 - 18:00** | Tempo livre (pode ser usado para lazer ou descanso) |\n| **18:00 - 19:00** | Jantar e tempo com a família |\n| **19:00 - 21:00** | Lazer (jogar, assistir a um filme, etc.) |\n| **21:00 - 22:00** | Preparar para dormir (ler um livro ou relaxar) |\n| **22:00**         | Dormir |\n\n## Dicas para Seguir o Cronograma\n\n1. **",
+        "favorite": false,
+        "conversationId": "mg1y7vey-cnjqvt",
+        "conversationTitle": "Planejo meu dia."
+      },
+      "createdAt": "2025-09-27T07:31:22.141Z"
+    },
+    {
+      "id": "e10afe6d-c695-4a75-8636-388dd93fbf9f",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "plan",
+      "payload": {
+        "nivel": "fundamental",
+        "minutosPorDia": 60,
+        "objetivoGeral": "(fallback-parse)",
+        "input": {
+          "dataAlvo": "2025-10-05",
+          "minutosPorDia": 60,
+          "nivel": "fundamental",
+          "itens": [
+            {
+              "idx": 1,
+              "materia": "",
+              "texto": "Claro! As leis de Newton são três princípios fundamentais que explicam como os objetos se movem. Vamos a elas: ### 1. Primeira Lei (Inércia) Um objeto em repouso fica em repouso e um objeto em movimento continua em movimento, a menos que uma força externa atue sobre ele. - **Exemplo:** Em um jogo de futebol, a bola só para quando alguém a chuta (força externa). ### 2. Segunda Lei (F=ma) A força que atua sobre um objeto é igual à massa do objeto multiplicada pela sua aceleração. - **Exemplo:** Se você empurrar um carrinho de compras, quanto mais forte você empurrar (força), mais rápido ele vai "
+            }
+          ]
+        },
+        "plan": {
+          "dias": [
+            {
+              "data": "29-09-2025",
+              "tarefas": [
+                "Geral: revisão dos conceitos-chave (nível fundamental) — 45–60min",
+                "Exercícios direcionados — 30–45min",
+                "Notas dos erros e dúvidas — 10–15min"
+              ]
+            },
+            {
+              "data": "29-09-2025",
+              "tarefas": [
+                "Geral: exercícios práticos (nível fundamental) — 45–60min",
+                "Exercícios direcionados — 30–45min",
+                "Notas dos erros e dúvidas — 10–15min"
+              ]
+            },
+            {
+              "data": "30-09-2025",
+              "tarefas": [
+                "Geral: correção dos erros (nível fundamental) — 45–60min",
+                "Exercícios direcionados — 30–45min",
+                "Notas dos erros e dúvidas — 10–15min"
+              ]
+            },
+            {
+              "data": "01-10-2025",
+              "tarefas": [
+                "Geral: flashcards de termos (nível fundamental) — 45–60min",
+                "Exercícios direcionados — 30–45min",
+                "Notas dos erros e dúvidas — 10–15min"
+              ]
+            },
+            {
+              "data": "02-10-2025",
+              "tarefas": [
+                "Geral: leitura de resumo (nível fundamental) — 45–60min",
+                "Exercícios direcionados — 30–45min",
+                "Notas dos erros e dúvidas — 10–15min"
+              ]
+            },
+            {
+              "data": "03-10-2025",
+              "tarefas": [
+                "Geral: exercícios de prova anterior (nível fundamental) — 45–60min",
+                "Exercícios direcionados — 30–45min",
+                "Notas dos erros e dúvidas — 10–15min"
+              ]
+            },
+            {
+              "data": "04-10-2025",
+              "tarefas": [
+                "Geral: mapa mental (nível fundamental) — 45–60min",
+                "Exercícios direcionados — 30–45min",
+                "Notas dos erros e dúvidas — 10–15min"
+              ]
+            }
+          ],
+          "observacoes": "Plano local (fallback) até 2025-10-05. Distribua 7h/semana, faça 1 simulado curto na reta final e priorize revisão de erros."
+        },
+        "favorite": false
+      },
+      "createdAt": "2025-09-28T18:57:32.526Z"
+    },
+    {
+      "id": "f43ab22a-5e81-4a5c-99b1-f6e4a3721d14",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "plan",
+      "payload": {
+        "nivel": "fundamental",
+        "minutosPorDia": 60,
+        "objetivoGeral": "(fallback-parse)",
+        "input": {
+          "dataAlvo": "2025-10-05",
+          "minutosPorDia": 60,
+          "nivel": "fundamental",
+          "itens": [
+            {
+              "idx": 1,
+              "materia": "",
+              "texto": "# Planejando o Seu Dia Planejar o dia é uma habilidade muito importante que pode ajudar você a ser mais produtivo e a aproveitar melhor o seu tempo. Vamos entender como fazer isso de uma maneira simples e divertida, usando exemplos do mundo dos jogos! ## Por que Planejar é Importante? 1. **Organização**: Assim como em um jogo, onde você precisa organizar suas estratégias para vencer, planejar o dia ajuda a organizar suas tarefas. 2. **Foco**: Em jogos, você precisa se concentrar em uma missão para avançar. Planejar ajuda a manter o foco nas atividades que você precisa realizar. 3. **Eficiência"
+            }
+          ]
+        },
+        "plan": {
+          "dias": [
+            {
+              "data": "29-09-2025",
+              "tarefas": [
+                "Geral: revisão dos conceitos-chave (nível fundamental) — 45–60min",
+                "Exercícios direcionados — 30–45min",
+                "Notas dos erros e dúvidas — 10–15min"
+              ]
+            },
+            {
+              "data": "29-09-2025",
+              "tarefas": [
+                "Geral: exercícios práticos (nível fundamental) — 45–60min",
+                "Exercícios direcionados — 30–45min",
+                "Notas dos erros e dúvidas — 10–15min"
+              ]
+            },
+            {
+              "data": "30-09-2025",
+              "tarefas": [
+                "Geral: correção dos erros (nível fundamental) — 45–60min",
+                "Exercícios direcionados — 30–45min",
+                "Notas dos erros e dúvidas — 10–15min"
+              ]
+            },
+            {
+              "data": "01-10-2025",
+              "tarefas": [
+                "Geral: flashcards de termos (nível fundamental) — 45–60min",
+                "Exercícios direcionados — 30–45min",
+                "Notas dos erros e dúvidas — 10–15min"
+              ]
+            },
+            {
+              "data": "02-10-2025",
+              "tarefas": [
+                "Geral: leitura de resumo (nível fundamental) — 45–60min",
+                "Exercícios direcionados — 30–45min",
+                "Notas dos erros e dúvidas — 10–15min"
+              ]
+            },
+            {
+              "data": "03-10-2025",
+              "tarefas": [
+                "Geral: exercícios de prova anterior (nível fundamental) — 45–60min",
+                "Exercícios direcionados — 30–45min",
+                "Notas dos erros e dúvidas — 10–15min"
+              ]
+            },
+            {
+              "data": "04-10-2025",
+              "tarefas": [
+                "Geral: mapa mental (nível fundamental) — 45–60min",
+                "Exercícios direcionados — 30–45min",
+                "Notas dos erros e dúvidas — 10–15min"
+              ]
+            }
+          ],
+          "observacoes": "Plano local (fallback) até 2025-10-05. Distribua 7h/semana, faça 1 simulado curto na reta final e priorize revisão de erros."
+        },
+        "favorite": false
+      },
+      "createdAt": "2025-09-28T18:08:48.049Z"
+    },
+    {
+      "id": "5cae1686-1236-4a3c-8f35-f302c683d63d",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "plan",
+      "payload": {
+        "nivel": "fundamental",
+        "minutosPorDia": 60,
+        "objetivoGeral": "(fallback-parse)",
+        "input": {
+          "dataAlvo": "2025-10-05",
+          "minutosPorDia": 60,
+          "nivel": "fundamental",
+          "itens": [
+            {
+              "idx": 1,
+              "materia": "",
+              "texto": "# Cronograma Semanal para um Dia Produtivo Que ótimo que você quer se exercitar, estudar e ainda ter tempo para o lazer! Vamos criar um cronograma que te ajude a organizar tudo isso de forma equilibrada e divertida. Assim como em um jogo, onde você precisa distribuir suas ações para avançar, você também pode fazer isso na sua rotina! ## Estrutura do Cronograma ### Segunda a Sexta Aqui está uma sugestão de cronograma que você pode seguir: | Horário | Atividade | |---------------|-------------------------------| | **06:00 - 06:30** | Acordar e fazer um alongamento | | **06:30 - 07:00** | Exercíc"
+            }
+          ]
+        },
+        "plan": {
+          "dias": [
+            {
+              "data": "29-09-2025",
+              "tarefas": [
+                "Geral: revisão dos conceitos-chave (nível fundamental) — 45–60min",
+                "Exercícios direcionados — 30–45min",
+                "Notas dos erros e dúvidas — 10–15min"
+              ]
+            },
+            {
+              "data": "29-09-2025",
+              "tarefas": [
+                "Geral: exercícios práticos (nível fundamental) — 45–60min",
+                "Exercícios direcionados — 30–45min",
+                "Notas dos erros e dúvidas — 10–15min"
+              ]
+            },
+            {
+              "data": "30-09-2025",
+              "tarefas": [
+                "Geral: correção dos erros (nível fundamental) — 45–60min",
+                "Exercícios direcionados — 30–45min",
+                "Notas dos erros e dúvidas — 10–15min"
+              ]
+            },
+            {
+              "data": "01-10-2025",
+              "tarefas": [
+                "Geral: flashcards de termos (nível fundamental) — 45–60min",
+                "Exercícios direcionados — 30–45min",
+                "Notas dos erros e dúvidas — 10–15min"
+              ]
+            },
+            {
+              "data": "02-10-2025",
+              "tarefas": [
+                "Geral: leitura de resumo (nível fundamental) — 45–60min",
+                "Exercícios direcionados — 30–45min",
+                "Notas dos erros e dúvidas — 10–15min"
+              ]
+            },
+            {
+              "data": "03-10-2025",
+              "tarefas": [
+                "Geral: exercícios de prova anterior (nível fundamental) — 45–60min",
+                "Exercícios direcionados — 30–45min",
+                "Notas dos erros e dúvidas — 10–15min"
+              ]
+            },
+            {
+              "data": "04-10-2025",
+              "tarefas": [
+                "Geral: mapa mental (nível fundamental) — 45–60min",
+                "Exercícios direcionados — 30–45min",
+                "Notas dos erros e dúvidas — 10–15min"
+              ]
+            }
+          ],
+          "observacoes": "Plano local (fallback) até 2025-10-05. Distribua 7h/semana, faça 1 simulado curto na reta final e priorize revisão de erros."
+        },
+        "favorite": false
+      },
+      "createdAt": "2025-09-28T19:01:04.040Z"
+    },
+    {
+      "id": "ae0ef09a-1456-496a-affa-8937166dcfe6",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "plan",
+      "payload": {
+        "nivel": "fundamental",
+        "minutosPorDia": 60,
+        "objetivoGeral": "(fallback)",
+        "input": {
+          "dataAlvo": "2025-10-06",
+          "minutosPorDia": 60,
+          "nivel": "fundamental",
+          "itens": [
+            {
+              "idx": 1,
+              "materia": "",
+              "texto": "# Cronograma Semanal para um Dia Produtivo Que ótimo que você quer se exercitar, estudar e ainda ter tempo para o lazer! Vamos criar um cronograma que te ajude a organizar tudo isso de forma equilibrada e divertida. Assim como em um jogo, onde você precisa distribuir suas ações para avançar, você também pode fazer isso na sua rotina! ## Estrutura do Cronograma ### Segunda a Sexta Aqui está uma sugestão de cronograma que você pode seguir: | Horário | Atividade | |---------------|-------------------------------| | **06:00 - 06:30** | Acordar e fazer um alongamento | | **06:30 - 07:00** | Exercíc"
+            }
+          ],
+          "contexto": null,
+          "categoriaDesejada": null
+        },
+        "plan": {
+          "planId": "b8a3a005-2035-4365-92e4-929352d0deed",
+          "meta": {
+            "titulo": "Plano rápido",
+            "categoria": "organizacional",
+            "janela": {
+              "inicio": "2025-09-30",
+              "fim": "2025-10-06"
+            },
+            "minutosPorDia": 60,
+            "premissas": [
+              "Fallback local com blocos de 45min + pausas"
+            ]
+          },
+          "schedule": [
+            {
+              "data": "2025-09-30",
+              "blocos": [
+                {
+                  "inicio": "07:30",
+                  "fim": "08:15",
+                  "tipo": "tarefa",
+                  "titulo": "Tarefa",
+                  "descricao": "# Cronograma Semanal para um Dia Produtivo Que ótimo que você quer se exercitar, estudar e ainda ter tempo para o lazer! Vamos criar um cron",
+                  "topicos": [],
+                  "prioridade": "média",
+                  "origem": {
+                    "from": "fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "data": "2025-10-01",
+              "blocos": [
+                {
+                  "inicio": "07:30",
+                  "fim": "08:15",
+                  "tipo": "tarefa",
+                  "titulo": "Tarefa",
+                  "descricao": "# Cronograma Semanal para um Dia Produtivo Que ótimo que você quer se exercitar, estudar e ainda ter tempo para o lazer! Vamos criar um cron",
+                  "topicos": [],
+                  "prioridade": "média",
+                  "origem": {
+                    "from": "fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "data": "2025-10-02",
+              "blocos": [
+                {
+                  "inicio": "07:30",
+                  "fim": "08:15",
+                  "tipo": "tarefa",
+                  "titulo": "Tarefa",
+                  "descricao": "# Cronograma Semanal para um Dia Produtivo Que ótimo que você quer se exercitar, estudar e ainda ter tempo para o lazer! Vamos criar um cron",
+                  "topicos": [],
+                  "prioridade": "média",
+                  "origem": {
+                    "from": "fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "data": "2025-10-03",
+              "blocos": [
+                {
+                  "inicio": "07:30",
+                  "fim": "08:15",
+                  "tipo": "tarefa",
+                  "titulo": "Tarefa",
+                  "descricao": "# Cronograma Semanal para um Dia Produtivo Que ótimo que você quer se exercitar, estudar e ainda ter tempo para o lazer! Vamos criar um cron",
+                  "topicos": [],
+                  "prioridade": "média",
+                  "origem": {
+                    "from": "fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "data": "2025-10-04",
+              "blocos": [
+                {
+                  "inicio": "07:30",
+                  "fim": "08:15",
+                  "tipo": "tarefa",
+                  "titulo": "Tarefa",
+                  "descricao": "# Cronograma Semanal para um Dia Produtivo Que ótimo que você quer se exercitar, estudar e ainda ter tempo para o lazer! Vamos criar um cron",
+                  "topicos": [],
+                  "prioridade": "média",
+                  "origem": {
+                    "from": "fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "data": "2025-10-05",
+              "blocos": [
+                {
+                  "inicio": "07:30",
+                  "fim": "08:15",
+                  "tipo": "tarefa",
+                  "titulo": "Tarefa",
+                  "descricao": "# Cronograma Semanal para um Dia Produtivo Que ótimo que você quer se exercitar, estudar e ainda ter tempo para o lazer! Vamos criar um cron",
+                  "topicos": [],
+                  "prioridade": "média",
+                  "origem": {
+                    "from": "fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "data": "2025-10-06",
+              "blocos": [
+                {
+                  "inicio": "07:30",
+                  "fim": "08:15",
+                  "tipo": "tarefa",
+                  "titulo": "Tarefa",
+                  "descricao": "# Cronograma Semanal para um Dia Produtivo Que ótimo que você quer se exercitar, estudar e ainda ter tempo para o lazer! Vamos criar um cron",
+                  "topicos": [],
+                  "prioridade": "média",
+                  "origem": {
+                    "from": "fallback"
+                  }
+                }
+              ]
+            }
+          ],
+          "checklist": [],
+          "observacoes": "Plano gerado localmente por falta de resposta do LLM.",
+          "racional": [
+            "Distribuição uniforme",
+            "Pausas programadas",
+            "Duração 45min/bloco"
+          ]
+        },
+        "favorite": false
+      },
+      "createdAt": "2025-09-30T02:40:45.786Z"
+    },
+    {
+      "id": "56e1a37a-6c50-4bb7-b02f-f0cbd745e91a",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "plan",
+      "payload": {
+        "nivel": "fundamental",
+        "minutosPorDia": 60,
+        "objetivoGeral": "(fallback)",
+        "input": {
+          "dataAlvo": "2025-10-06",
+          "minutosPorDia": 60,
+          "nivel": "fundamental",
+          "itens": [
+            {
+              "idx": 1,
+              "materia": "",
+              "texto": "# Cronograma Semanal para um Dia Produtivo Que ótimo que você quer se exercitar, estudar e ainda ter tempo para o lazer! Vamos criar um cronograma que te ajude a organizar tudo isso de forma equilibrada e divertida. Assim como em um jogo, onde você precisa distribuir suas ações para avançar, você também pode fazer isso na sua rotina! ## Estrutura do Cronograma ### Segunda a Sexta Aqui está uma sugestão de cronograma que você pode seguir: | Horário | Atividade | |---------------|-------------------------------| | **06:00 - 06:30** | Acordar e fazer um alongamento | | **06:30 - 07:00** | Exercíc"
+            }
+          ],
+          "contexto": null,
+          "categoriaDesejada": null
+        },
+        "plan": {
+          "planId": "55b6e645-b873-410f-919d-cd580d274d18",
+          "meta": {
+            "titulo": "Plano rápido",
+            "categoria": "organizacional",
+            "janela": {
+              "inicio": "2025-09-30",
+              "fim": "2025-10-06"
+            },
+            "minutosPorDia": 60,
+            "premissas": [
+              "Fallback local com blocos de 45min + pausas"
+            ]
+          },
+          "schedule": [
+            {
+              "data": "2025-09-30",
+              "blocos": [
+                {
+                  "inicio": "07:30",
+                  "fim": "08:15",
+                  "tipo": "tarefa",
+                  "titulo": "Tarefa",
+                  "descricao": "# Cronograma Semanal para um Dia Produtivo Que ótimo que você quer se exercitar, estudar e ainda ter tempo para o lazer! Vamos criar um cron",
+                  "topicos": [],
+                  "prioridade": "média",
+                  "origem": {
+                    "from": "fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "data": "2025-10-01",
+              "blocos": [
+                {
+                  "inicio": "07:30",
+                  "fim": "08:15",
+                  "tipo": "tarefa",
+                  "titulo": "Tarefa",
+                  "descricao": "# Cronograma Semanal para um Dia Produtivo Que ótimo que você quer se exercitar, estudar e ainda ter tempo para o lazer! Vamos criar um cron",
+                  "topicos": [],
+                  "prioridade": "média",
+                  "origem": {
+                    "from": "fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "data": "2025-10-02",
+              "blocos": [
+                {
+                  "inicio": "07:30",
+                  "fim": "08:15",
+                  "tipo": "tarefa",
+                  "titulo": "Tarefa",
+                  "descricao": "# Cronograma Semanal para um Dia Produtivo Que ótimo que você quer se exercitar, estudar e ainda ter tempo para o lazer! Vamos criar um cron",
+                  "topicos": [],
+                  "prioridade": "média",
+                  "origem": {
+                    "from": "fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "data": "2025-10-03",
+              "blocos": [
+                {
+                  "inicio": "07:30",
+                  "fim": "08:15",
+                  "tipo": "tarefa",
+                  "titulo": "Tarefa",
+                  "descricao": "# Cronograma Semanal para um Dia Produtivo Que ótimo que você quer se exercitar, estudar e ainda ter tempo para o lazer! Vamos criar um cron",
+                  "topicos": [],
+                  "prioridade": "média",
+                  "origem": {
+                    "from": "fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "data": "2025-10-04",
+              "blocos": [
+                {
+                  "inicio": "07:30",
+                  "fim": "08:15",
+                  "tipo": "tarefa",
+                  "titulo": "Tarefa",
+                  "descricao": "# Cronograma Semanal para um Dia Produtivo Que ótimo que você quer se exercitar, estudar e ainda ter tempo para o lazer! Vamos criar um cron",
+                  "topicos": [],
+                  "prioridade": "média",
+                  "origem": {
+                    "from": "fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "data": "2025-10-05",
+              "blocos": [
+                {
+                  "inicio": "07:30",
+                  "fim": "08:15",
+                  "tipo": "tarefa",
+                  "titulo": "Tarefa",
+                  "descricao": "# Cronograma Semanal para um Dia Produtivo Que ótimo que você quer se exercitar, estudar e ainda ter tempo para o lazer! Vamos criar um cron",
+                  "topicos": [],
+                  "prioridade": "média",
+                  "origem": {
+                    "from": "fallback"
+                  }
+                }
+              ]
+            },
+            {
+              "data": "2025-10-06",
+              "blocos": [
+                {
+                  "inicio": "07:30",
+                  "fim": "08:15",
+                  "tipo": "tarefa",
+                  "titulo": "Tarefa",
+                  "descricao": "# Cronograma Semanal para um Dia Produtivo Que ótimo que você quer se exercitar, estudar e ainda ter tempo para o lazer! Vamos criar um cron",
+                  "topicos": [],
+                  "prioridade": "média",
+                  "origem": {
+                    "from": "fallback"
+                  }
+                }
+              ]
+            }
+          ],
+          "checklist": [],
+          "observacoes": "Plano gerado localmente por falta de resposta do LLM.",
+          "racional": [
+            "Distribuição uniforme",
+            "Pausas programadas",
+            "Duração 45min/bloco"
+          ]
+        },
+        "favorite": false
+      },
+      "createdAt": "2025-09-30T02:43:03.005Z"
+    },
+    {
+      "id": "7c6ae855-5ce8-40f5-8b8a-c0d5bcf34c9c",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "plan",
+      "payload": {
+        "nivel": "fundamental",
+        "minutosPorDia": 240,
+        "objetivoGeral": "(fallback)",
+        "input": {
+          "dataAlvo": "2025-10-07",
+          "minutosPorDia": 240,
+          "nivel": "fundamental",
+          "itens": [
+            {
+              "idx": 1,
+              "materia": "",
+              "texto": "# Cronograma Semanal para um Dia Produtivo Que ótimo que você quer se exercitar, estudar e ainda ter tempo para o lazer! Vamos criar um cronograma que te ajude a organizar tudo isso de forma equilibrada e divertida. Assim como em um jogo, onde você precisa distribuir suas ações para avançar, você também pode fazer isso na sua rotina! ## Estrutura do Cronograma ### Segunda a Sexta Aqui está uma sugestão de cronograma que você pode seguir: | Horário | Atividade | |---------------|-------------------------------| | **06:00 - 06:30** | Acordar e fazer um alongamento | | **06:30 - 07:00** | Exercíc"
+            }
+          ],
+          "contexto": null,
+          "categoriaDesejada": null
+        },
+        "plan": {
+          "planId": "ecbcffb8-24e2-4d4b-915f-75d0e5373123",
+          "meta": {
+            "titulo": "Plano rápido",
+            "categoria": "organizacional",
+            "janela": {
+              "inicio": "2025-09-30",
+              "fim": "2025-10-07"
+            },
+            "minutosPorDia": 240,
+            "premissas": [
+              "Fallback local com blocos de 45min + pausas"
+            ]
+          },
+          "schedule": [
+            {
+              "data": "2025-09-30",
+              "blocos": [
+                {
+                  "inicio": "07:30",
+                  "fim": "08:15",
+                  "tipo": "tarefa",
+                  "titulo": "Tarefa",
+                  "descricao": "# Cronograma Semanal para um Dia Produtivo Que ótimo que você quer se exercitar, estudar e ainda ter tempo para o lazer! Vamos criar um cron",
+                  "topicos": [],
+                  "prioridade": "média",
+                  "origem": {
+                    "from": "fallback"
+                  }
+                },
+                {
+                  "inicio": "08:15",
+                  "fim": "08:25",
+                  "tipo": "pausa",
+                  "titulo": "Pausa"
+                }
+              ]
+            },
+            {
+              "data": "2025-10-01",
+              "blocos": [
+                {
+                  "inicio": "07:30",
+                  "fim": "08:15",
+                  "tipo": "tarefa",
+                  "titulo": "Tarefa",
+                  "descricao": "# Cronograma Semanal para um Dia Produtivo Que ótimo que você quer se exercitar, estudar e ainda ter tempo para o lazer! Vamos criar um cron",
+                  "topicos": [],
+                  "prioridade": "média",
+                  "origem": {
+                    "from": "fallback"
+                  }
+                },
+                {
+                  "inicio": "08:15",
+                  "fim": "08:25",
+                  "tipo": "pausa",
+                  "titulo": "Pausa"
+                }
+              ]
+            },
+            {
+              "data": "2025-10-02",
+              "blocos": [
+                {
+                  "inicio": "07:30",
+                  "fim": "08:15",
+                  "tipo": "tarefa",
+                  "titulo": "Tarefa",
+                  "descricao": "# Cronograma Semanal para um Dia Produtivo Que ótimo que você quer se exercitar, estudar e ainda ter tempo para o lazer! Vamos criar um cron",
+                  "topicos": [],
+                  "prioridade": "média",
+                  "origem": {
+                    "from": "fallback"
+                  }
+                },
+                {
+                  "inicio": "08:15",
+                  "fim": "08:25",
+                  "tipo": "pausa",
+                  "titulo": "Pausa"
+                }
+              ]
+            },
+            {
+              "data": "2025-10-03",
+              "blocos": [
+                {
+                  "inicio": "07:30",
+                  "fim": "08:15",
+                  "tipo": "tarefa",
+                  "titulo": "Tarefa",
+                  "descricao": "# Cronograma Semanal para um Dia Produtivo Que ótimo que você quer se exercitar, estudar e ainda ter tempo para o lazer! Vamos criar um cron",
+                  "topicos": [],
+                  "prioridade": "média",
+                  "origem": {
+                    "from": "fallback"
+                  }
+                },
+                {
+                  "inicio": "08:15",
+                  "fim": "08:25",
+                  "tipo": "pausa",
+                  "titulo": "Pausa"
+                }
+              ]
+            },
+            {
+              "data": "2025-10-04",
+              "blocos": [
+                {
+                  "inicio": "07:30",
+                  "fim": "08:15",
+                  "tipo": "tarefa",
+                  "titulo": "Tarefa",
+                  "descricao": "# Cronograma Semanal para um Dia Produtivo Que ótimo que você quer se exercitar, estudar e ainda ter tempo para o lazer! Vamos criar um cron",
+                  "topicos": [],
+                  "prioridade": "média",
+                  "origem": {
+                    "from": "fallback"
+                  }
+                },
+                {
+                  "inicio": "08:15",
+                  "fim": "08:25",
+                  "tipo": "pausa",
+                  "titulo": "Pausa"
+                }
+              ]
+            },
+            {
+              "data": "2025-10-05",
+              "blocos": [
+                {
+                  "inicio": "07:30",
+                  "fim": "08:15",
+                  "tipo": "tarefa",
+                  "titulo": "Tarefa",
+                  "descricao": "# Cronograma Semanal para um Dia Produtivo Que ótimo que você quer se exercitar, estudar e ainda ter tempo para o lazer! Vamos criar um cron",
+                  "topicos": [],
+                  "prioridade": "média",
+                  "origem": {
+                    "from": "fallback"
+                  }
+                },
+                {
+                  "inicio": "08:15",
+                  "fim": "08:25",
+                  "tipo": "pausa",
+                  "titulo": "Pausa"
+                }
+              ]
+            },
+            {
+              "data": "2025-10-06",
+              "blocos": [
+                {
+                  "inicio": "07:30",
+                  "fim": "08:15",
+                  "tipo": "tarefa",
+                  "titulo": "Tarefa",
+                  "descricao": "# Cronograma Semanal para um Dia Produtivo Que ótimo que você quer se exercitar, estudar e ainda ter tempo para o lazer! Vamos criar um cron",
+                  "topicos": [],
+                  "prioridade": "média",
+                  "origem": {
+                    "from": "fallback"
+                  }
+                },
+                {
+                  "inicio": "08:15",
+                  "fim": "08:25",
+                  "tipo": "pausa",
+                  "titulo": "Pausa"
+                }
+              ]
+            },
+            {
+              "data": "2025-10-07",
+              "blocos": [
+                {
+                  "inicio": "07:30",
+                  "fim": "08:15",
+                  "tipo": "tarefa",
+                  "titulo": "Tarefa",
+                  "descricao": "# Cronograma Semanal para um Dia Produtivo Que ótimo que você quer se exercitar, estudar e ainda ter tempo para o lazer! Vamos criar um cron",
+                  "topicos": [],
+                  "prioridade": "média",
+                  "origem": {
+                    "from": "fallback"
+                  }
+                },
+                {
+                  "inicio": "08:15",
+                  "fim": "08:25",
+                  "tipo": "pausa",
+                  "titulo": "Pausa"
+                }
+              ]
+            }
+          ],
+          "checklist": [],
+          "observacoes": "Plano gerado localmente por falta de resposta do LLM.",
+          "racional": [
+            "Distribuição uniforme",
+            "Pausas programadas",
+            "Duração 45min/bloco"
+          ]
+        },
+        "favorite": false
+      },
+      "createdAt": "2025-09-30T03:05:44.318Z"
+    },
+    {
+      "id": "1a014ec2-ea3c-4b55-a381-fc7857c6f601",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "kanban",
+      "payload": {
+        "kind": "board",
+        "title": "Estudos",
+        "description": "",
+        "favorite": false
+      },
+      "createdAt": "2025-09-30T03:42:07.971Z"
+    },
+    {
+      "id": "bcd6f13c-6dfd-4269-bde3-b44acdaeb58a",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "kanban",
+      "payload": {
+        "kind": "list",
+        "boardId": "1a014ec2-ea3c-4b55-a381-fc7857c6f601",
+        "title": "A Fazer",
+        "order": 100,
+        "createdAt": "2025-09-30T03:42:07.981Z"
+      },
+      "createdAt": "2025-09-30T03:42:07.981Z"
+    },
+    {
+      "id": "859b25a5-a8c3-4f6f-84e0-3aec3d11b7ab",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "kanban",
+      "payload": {
+        "kind": "list",
+        "boardId": "1a014ec2-ea3c-4b55-a381-fc7857c6f601",
+        "title": "Fazendo",
+        "order": 200,
+        "createdAt": "2025-09-30T03:42:07.984Z"
+      },
+      "createdAt": "2025-09-30T03:42:07.984Z"
+    },
+    {
+      "id": "2c556ca8-5392-47e3-be12-ee36cfe6dbf9",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "kanban",
+      "payload": {
+        "kind": "list",
+        "boardId": "1a014ec2-ea3c-4b55-a381-fc7857c6f601",
+        "title": "Feito",
+        "order": 300,
+        "createdAt": "2025-09-30T03:42:07.985Z"
+      },
+      "createdAt": "2025-09-30T03:42:07.985Z"
+    },
+    {
+      "id": "9bc82bd7-ddb9-466a-b38a-b695745b4bdb",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "kanban",
+      "payload": {
+        "kind": "board",
+        "title": "Rotina",
+        "description": "",
+        "favorite": false
+      },
+      "createdAt": "2025-09-30T04:01:07.699Z"
+    },
+    {
+      "id": "af6add24-c30c-49f5-bdfe-36f658a4c8ae",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "kanban",
+      "payload": {
+        "kind": "card",
+        "boardId": "1a014ec2-ea3c-4b55-a381-fc7857c6f601",
+        "listId": "859b25a5-a8c3-4f6f-84e0-3aec3d11b7ab",
+        "title": "Tal coisa",
+        "description": "",
+        "due": null,
+        "labels": [],
+        "checklists": [],
+        "attachments": [],
+        "comments": [],
+        "favorite": false,
+        "done": false,
+        "order": 100,
+        "updatedAt": "2025-09-30T04:19:13.909Z",
+        "meta": null
+      },
+      "createdAt": "2025-09-30T03:43:23.312Z"
+    },
+    {
+      "id": "41375d2e-dbe7-446a-ab52-ff312d24d300",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "kanban",
+      "payload": {
+        "kind": "card",
+        "boardId": "1a014ec2-ea3c-4b55-a381-fc7857c6f601",
+        "listId": "859b25a5-a8c3-4f6f-84e0-3aec3d11b7ab",
+        "title": "Compras",
+        "description": "",
+        "due": null,
+        "labels": [],
+        "checklists": [],
+        "attachments": [],
+        "comments": [],
+        "favorite": false,
+        "done": false,
+        "order": 200,
+        "updatedAt": "2025-09-30T04:24:09.112Z",
+        "meta": null
+      },
+      "createdAt": "2025-09-30T03:43:01.517Z"
+    },
+    {
+      "id": "6a952c14-8c0c-4e01-9099-6d13f19e7a2e",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "kanban",
+      "payload": {
+        "kind": "card",
+        "boardId": "1a014ec2-ea3c-4b55-a381-fc7857c6f601",
+        "listId": "859b25a5-a8c3-4f6f-84e0-3aec3d11b7ab",
+        "title": "Eu",
+        "description": "",
+        "due": null,
+        "labels": [],
+        "checklists": [],
+        "attachments": [],
+        "comments": [],
+        "favorite": false,
+        "done": false,
+        "order": 300,
+        "updatedAt": "2025-09-30T04:24:11.459Z",
+        "meta": null
+      },
+      "createdAt": "2025-09-30T03:59:22.836Z"
+    },
+    {
+      "id": "62d7f011-d6d8-4542-bd0f-d12ed211e56b",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "kanban",
+      "payload": {
+        "kind": "list",
+        "boardId": "9bc82bd7-ddb9-466a-b38a-b695745b4bdb",
+        "title": "Fazendo",
+        "order": 100,
+        "createdAt": "2025-09-30T04:01:07.703Z"
+      },
+      "createdAt": "2025-09-30T04:01:07.703Z"
+    },
+    {
+      "id": "0bfff034-0bd5-4fcf-8a6a-3868740f0f5c",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "kanban",
+      "payload": {
+        "kind": "list",
+        "boardId": "9bc82bd7-ddb9-466a-b38a-b695745b4bdb",
+        "title": "A Fazer",
+        "order": 200,
+        "createdAt": "2025-09-30T04:01:07.700Z"
+      },
+      "createdAt": "2025-09-30T04:01:07.700Z"
+    },
+    {
+      "id": "59921a7c-af3d-471f-ba44-706b0996118e",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "kanban",
+      "payload": {
+        "kind": "list",
+        "boardId": "9bc82bd7-ddb9-466a-b38a-b695745b4bdb",
+        "title": "Feito",
+        "order": 300,
+        "createdAt": "2025-09-30T04:01:07.708Z"
+      },
+      "createdAt": "2025-09-30T04:01:07.708Z"
+    },
+    {
+      "id": "474a0575-e1c4-4613-8546-13bd60eed108",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "kanban",
+      "payload": {
+        "kind": "card",
+        "boardId": "9bc82bd7-ddb9-466a-b38a-b695745b4bdb",
+        "listId": "59921a7c-af3d-471f-ba44-706b0996118e",
+        "title": "Correr",
+        "description": "",
+        "due": null,
+        "labels": [],
+        "checklists": [],
+        "attachments": [],
+        "comments": [],
+        "favorite": false,
+        "done": true,
+        "order": 100,
+        "updatedAt": "2025-10-01T01:32:32.055Z",
+        "meta": null
+      },
+      "createdAt": "2025-09-30T04:01:14.348Z"
+    },
+    {
+      "id": "b00c1ac4-ef31-46a1-b200-1722984679b7",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "chat",
+      "payload": {
+        "nivel": "fundamental",
+        "materia": "geral",
+        "question": "Oi",
+        "answer": "Oi! Como você está? Estou aqui para te ajudar com o que precisar. Se você tiver alguma pergunta ou tema que gostaria de explorar, é só me avisar! Vamos aprender juntos! 😊",
+        "favorite": false,
+        "conversationId": "mg7ea80q-rcbtlk",
+        "conversationTitle": "Nova conversa"
+      },
+      "createdAt": "2025-10-01T02:56:38.805Z"
+    },
+    {
+      "id": "a569d440-b2f0-4b02-9e49-431f0f23f14f",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "chat",
+      "payload": {
+        "nivel": "fundamental",
+        "materia": "geral",
+        "question": "Você pode me ajudar a criar um plano?",
+        "answer": "Claro! Vamos criar um plano juntos. Um plano pode ser muito útil para organizar suas ideias e alcançar seus objetivos. Vou te mostrar como fazer isso de forma simples e divertida, usando exemplos do mundo dos jogos!\n\n### Passo a Passo para Criar um Plano\n\n1. **Defina seu objetivo**:\n   - O que você quer alcançar? Pode ser algo como melhorar em um jogo específico, aprender uma nova habilidade ou até mesmo fazer um projeto escolar.\n   - **Exemplo**: \"Quero melhorar no jogo 'Fortnite' e subir de nível.\"\n\n2. **Divida em etapas**:\n   - Pense em pequenas metas que você pode alcançar para chegar ao seu objetivo maior.\n   - **Exemplo**: \n     - **Etapa 1**: Assistir a vídeos de dicas sobre 'Fortnite'.\n     - **Etapa 2**: Praticar por 30 minutos todos os dias.\n     - **Etapa 3**: Jogar com amigos para aprender novas estratégias.\n\n3. **Estabeleça prazos**:\n   - Defina um tempo para cada etapa. Isso ajuda a manter o foco e a motivação.\n   - **Exemplo**: \n     - **Etapa 1**: 2 dias para assistir aos vídeos.\n     - **Etapa 2**: 1 semana de prática diária.\n     - **Etapa 3**: Jogar com amigos no final da semana.\n\n4. **Monitore seu progresso**:\n   - Anote o que você conseguiu fazer e como se sentiu. Isso ajuda a ver o quanto você evoluiu.\n   - **Exemplo**: \n     - \"No dia 3, consegui eliminar 5 jogadores em uma partida!\"\n\n5. **Celebre suas conquistas**:\n   - Cada vez que você completar uma etapa, comemore! Isso te dá motivação para continuar.\n   - **Exemplo**: \"Depois de completar a etapa 2, eu joguei uma partida com meus amigos e ganhei!\"\n\n### Conexão com a História\n\nAssim como em jogos, na história também vemos planos sendo feitos. Por exemplo, quando os exploradores, como Cristóvão Colombo, planejaram suas viagens, eles definiram objetivos (descobrir novas terras), dividiram suas jornadas em etapas (preparar o nav",
+        "favorite": false,
+        "conversationId": "mg7ea80q-rcbtlk",
+        "conversationTitle": "Oi"
+      },
+      "createdAt": "2025-10-01T03:47:41.440Z"
+    },
+    {
+      "id": "99dee90a-9087-444c-990d-476e3f14550b",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "chat",
+      "payload": {
+        "nivel": "fundamental",
+        "materia": "geral",
+        "question": "Eu quero aprender a falar inglês, vc pode pensar em uma rotina diária pra mim?",
+        "answer": "Claro! Vamos criar uma rotina diária para você aprender inglês de forma divertida e eficaz. Aprender um novo idioma é como jogar um jogo: você precisa de prática, estratégia e, claro, um pouco de paciência. Vamos lá!\n\n### Rotina Diária para Aprender Inglês\n\n1. **Defina seu objetivo**:\n   - O que você quer alcançar? Por exemplo, \"Quero ser capaz de conversar em inglês sobre meus jogos favoritos.\"\n\n2. **Divida em etapas**:\n   - Aqui estão algumas atividades que você pode incluir na sua rotina:\n     - **Manhã (30 minutos)**:\n       - **Estudo de Vocabulário**: Aprenda 5 novas palavras por dia. Use aplicativos como Duolingo ou flashcards.\n       - **Exemplo**: Aprender palavras relacionadas a jogos, como \"player\" (jogador), \"level\" (nível), \"strategy\" (estratégia), \"win\" (ganhar) e \"lose\" (perder).\n\n     - **Tarde (30 minutos)**:\n       - **Prática de Escuta**: Ouça músicas em inglês ou assista a vídeos de jogos no YouTube. Tente entender as falas e anote palavras que você não conhece.\n       - **Exemplo**: Assista a um vídeo de gameplay de um jogo que você gosta e preste atenção nas instruções que o jogador dá.\n\n     - **Noite (30 minutos)**:\n       - **Conversação**: Pratique falar em inglês. Você pode usar aplicativos como HelloTalk para conversar com falantes nativos ou amigos que também estão aprendendo.\n       - **Exemplo**: Tente descrever seu jogo favorito em inglês para um amigo ou para você mesmo.\n\n3. **Estabeleça prazos**:\n   - Defina metas semanais. Por exemplo, \"Esta semana, quero aprender 35 novas palavras e conseguir entender uma música em inglês.\"\n\n4. **Monitore seu progresso**:\n   - Mantenha um diário de aprendizado. Anote o que você aprendeu e como se sentiu. Isso ajuda a ver sua evolução.\n   - **Exemplo**: \"Hoje aprendi as palavras 'strategy' e 'level'. Consegui entender a letra de uma música!\"\n\n5. **Celebre suas conquistas**:\n   -",
+        "favorite": false,
+        "conversationId": "mg7ea80q-rcbtlk",
+        "conversationTitle": "Oi"
+      },
+      "createdAt": "2025-10-01T04:04:17.544Z"
+    },
+    {
+      "id": "7244b556-29ff-4584-a16b-cf2505bd6514",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "chat",
+      "payload": {
+        "nivel": "fundamental",
+        "materia": "geral",
+        "question": "Maninho eu quero que você gere um cronograma básico pra mim! Meu objetivo é aprender inglês, me sugira um cronograma de segunda a sexta com sugestões do que estudar em cada dia para que eu evolua",
+        "answer": "Claro! Vamos criar um cronograma básico de segunda a sexta para você aprender inglês. Esse plano vai te ajudar a evoluir de forma consistente e divertida. Lembre-se, cada passo conta e você está no caminho certo! Vamos lá!\n\n### Cronograma Semanal para Aprender Inglês\n\n#### **Segunda-feira: Vocabulário e Gramática**\n- **Manhã (30 min)**: Aprenda 5 novas palavras relacionadas a jogos.\n  - **Exemplo**: \"player\", \"level\", \"strategy\", \"win\", \"lose\".\n- **Tarde (30 min)**: Estude uma regra gramatical simples (ex: verbos no presente).\n- **Noite (30 min)**: Pratique frases usando o vocabulário e a gramática aprendidos.\n\n#### **Terça-feira: Escuta Ativa**\n- **Manhã (30 min)**: Ouça uma música em inglês e tente entender a letra.\n- **Tarde (30 min)**: Assista a um vídeo de gameplay de um jogo que você gosta. Anote palavras ou expressões que não conhece.\n- **Noite (30 min)**: Tente repetir as falas que você ouviu no vídeo.\n\n#### **Quarta-feira: Conversação**\n- **Manhã (30 min)**: Pratique falar sobre seu jogo favorito em inglês. Tente descrever a história e os personagens.\n- **Tarde (30 min)**: Use um aplicativo como HelloTalk para conversar com um falante nativo ou amigo.\n- **Noite (30 min)**: Grave-se falando em inglês e ouça para identificar áreas de melhoria.\n\n#### **Quinta-feira: Leitura e Compreensão**\n- **Manhã (30 min)**: Leia um artigo ou uma resenha sobre um jogo em inglês.\n- **Tarde (30 min)**: Resuma o que leu em inglês. Tente usar o vocabulário aprendido.\n- **Noite (30 min)**: Discuta o que leu com um amigo ou em um grupo de estudo.\n\n#### **Sexta-feira: Revisão e Prática**\n- **Manhã (30 min)**: Revise as 25 palavras que você aprendeu durante a semana.\n- **Tarde (30 min)**: Faça um quiz online sobre gramática e vocabulário.",
+        "favorite": false,
+        "conversationId": "mg7ea80q-rcbtlk",
+        "conversationTitle": "Oi"
+      },
+      "createdAt": "2025-10-01T04:22:34.475Z"
+    },
+    {
+      "id": "3214c203-b848-4a5b-a2d1-cb1bf53b6620",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "kanban",
+      "payload": {
+        "kind": "card",
+        "boardId": "9bc82bd7-ddb9-466a-b38a-b695745b4bdb",
+        "listId": "62d7f011-d6d8-4542-bd0f-d12ed211e56b",
+        "title": "Andar",
+        "description": "Exercícios",
+        "due": null,
+        "labels": [],
+        "checklists": [
+          {
+            "id": "ea2bdd63-fb80-4e6e-a789-76ac1dbf5d3c",
+            "title": "Cara",
+            "items": [
+              {
+                "id": "2b9786ca-3d8d-42b6-8756-2f927268a90b",
+                "text": "1",
+                "done": false
+              }
+            ]
+          },
+          {
+            "id": "8526d0a5-3789-4475-8cc8-f3d0dd4270c5",
+            "title": "Coroa",
+            "items": [
+              {
+                "id": "f9810c56-50a2-43e4-8075-74b35d8cfeef",
+                "text": "2",
+                "done": false
+              }
+            ]
+          }
+        ],
+        "attachments": [],
+        "comments": [],
+        "favorite": false,
+        "done": false,
+        "order": 100,
+        "updatedAt": "2025-10-01T04:35:03.103Z",
+        "meta": null,
+        "startDate": null
+      },
+      "createdAt": "2025-09-30T04:18:56.056Z"
+    },
+    {
+      "id": "684bd77a-cbb1-4756-869b-c6b0e022a816",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "kanban",
+      "payload": {
+        "kind": "board",
+        "title": "Trabalho",
+        "description": "",
+        "favorite": false
+      },
+      "createdAt": "2025-10-01T05:47:52.636Z"
+    },
+    {
+      "id": "17d9787d-24f5-407b-a095-fd333c83d8a0",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "kanban",
+      "payload": {
+        "kind": "list",
+        "boardId": "684bd77a-cbb1-4756-869b-c6b0e022a816",
+        "title": "A Fazer",
+        "order": 100,
+        "createdAt": "2025-10-01T05:47:52.638Z"
+      },
+      "createdAt": "2025-10-01T05:47:52.638Z"
+    },
+    {
+      "id": "90f7bcb5-09f3-4902-8635-53c5c76cfe8b",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "kanban",
+      "payload": {
+        "kind": "list",
+        "boardId": "684bd77a-cbb1-4756-869b-c6b0e022a816",
+        "title": "Fazendo",
+        "order": 200,
+        "createdAt": "2025-10-01T05:47:52.642Z"
+      },
+      "createdAt": "2025-10-01T05:47:52.642Z"
+    },
+    {
+      "id": "9a4b61a6-8585-4d80-90a7-53c8d130e004",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "kanban",
+      "payload": {
+        "kind": "list",
+        "boardId": "684bd77a-cbb1-4756-869b-c6b0e022a816",
+        "title": "Feito",
+        "order": 300,
+        "createdAt": "2025-10-01T05:47:52.643Z"
+      },
+      "createdAt": "2025-10-01T05:47:52.643Z"
+    },
+    {
+      "id": "9aacc41b-3137-40f6-990d-db04b8d4830a",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "kanban",
+      "payload": {
+        "kind": "board",
+        "title": "Plano de estudos",
+        "description": "",
+        "favorite": false
+      },
+      "createdAt": "2025-10-01T06:06:51.018Z"
+    },
+    {
+      "id": "80243462-c0e0-4542-bee0-a1cd46337d0d",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "kanban",
+      "payload": {
+        "kind": "list",
+        "boardId": "9aacc41b-3137-40f6-990d-db04b8d4830a",
+        "title": "A Fazer",
+        "order": 100,
+        "createdAt": "2025-10-01T06:06:51.021Z"
+      },
+      "createdAt": "2025-10-01T06:06:51.022Z"
+    },
+    {
+      "id": "da19f9ae-28fe-48b1-b5e7-885a4c0d4b63",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "kanban",
+      "payload": {
+        "kind": "list",
+        "boardId": "9aacc41b-3137-40f6-990d-db04b8d4830a",
+        "title": "Fazendo",
+        "order": 200,
+        "createdAt": "2025-10-01T06:06:51.024Z"
+      },
+      "createdAt": "2025-10-01T06:06:51.024Z"
+    },
+    {
+      "id": "ace72a5e-8094-4ea6-885e-32a8b3007a4f",
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "type": "kanban",
+      "payload": {
+        "kind": "list",
+        "boardId": "9aacc41b-3137-40f6-990d-db04b8d4830a",
+        "title": "Feito",
+        "order": 300,
+        "createdAt": "2025-10-01T06:06:51.027Z"
+      },
+      "createdAt": "2025-10-01T06:06:51.027Z"
+    }
+  ]
+}

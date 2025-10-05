@@ -1,0 +1,151 @@
+{
+  "votes": [
+    {
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "historyId": "529b4f5c-4629-4935-aed7-7541eca32571",
+      "vote": "down",
+      "createdAt": "2025-10-03T18:04:14.768Z",
+      "updatedAt": "2025-10-03T18:04:26.464Z"
+    },
+    {
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "historyId": "7880aae6-a59f-46ca-889b-9d1a7d42c6cb",
+      "vote": "up",
+      "createdAt": "2025-10-03T18:10:39.124Z",
+      "updatedAt": "2025-10-04T21:00:35.160Z"
+    },
+    {
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "historyId": "f11b0d51-0688-49b3-98e0-1594288ddb83",
+      "vote": "down",
+      "createdAt": "2025-10-03T18:11:05.017Z",
+      "updatedAt": "2025-10-03T18:11:05.017Z"
+    },
+    {
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "historyId": "fdaad872-bd9a-4754-ae45-ae49f9863b13",
+      "vote": "down",
+      "createdAt": "2025-10-03T18:21:28.842Z",
+      "updatedAt": "2025-10-03T18:23:23.247Z"
+    },
+    {
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "historyId": "6ecb34f6-6ac2-4b33-ba0c-bc3a8ce0bfeb",
+      "vote": "up",
+      "createdAt": "2025-10-03T18:27:05.907Z",
+      "updatedAt": "2025-10-03T18:27:17.243Z"
+    },
+    {
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "historyId": "4544fdaf-0597-441c-844e-a25ef9d20300",
+      "vote": "up",
+      "createdAt": "2025-10-03T18:37:28.461Z",
+      "updatedAt": "2025-10-03T18:37:29.210Z"
+    },
+    {
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "historyId": "06ad17a7-183a-407a-90e9-a87dde03662d",
+      "vote": "down",
+      "createdAt": "2025-10-03T18:56:37.474Z",
+      "updatedAt": "2025-10-03T18:56:39.828Z"
+    },
+    {
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "historyId": "21efe91f-f5e8-4e56-986a-631a0f45c03e",
+      "vote": "up",
+      "createdAt": "2025-10-03T19:51:57.998Z",
+      "updatedAt": "2025-10-03T19:51:57.998Z"
+    },
+    {
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "historyId": "1f199920-415d-47a9-8eb5-6e506c01c536",
+      "vote": "down",
+      "createdAt": "2025-10-03T19:53:08.312Z",
+      "updatedAt": "2025-10-03T19:53:08.312Z"
+    },
+    {
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "historyId": "2849eb2b-d888-4f61-b8c4-cce6ed61a990",
+      "vote": "down",
+      "createdAt": "2025-10-04T00:06:47.259Z",
+      "updatedAt": "2025-10-04T00:06:47.259Z"
+    },
+    {
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "historyId": "44eb3262-a243-4205-b24c-7da477a80515",
+      "vote": "up",
+      "createdAt": "2025-10-04T00:07:30.853Z",
+      "updatedAt": "2025-10-04T00:07:30.853Z"
+    },
+    {
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "historyId": "4ddfa90f-ac12-4d86-9989-11c8c330acac",
+      "vote": "down",
+      "createdAt": "2025-10-04T00:08:56.457Z",
+      "updatedAt": "2025-10-04T00:08:56.457Z"
+    },
+    {
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "historyId": "415e342f-f8ac-4821-8316-920c1f26ca06",
+      "vote": "down",
+      "createdAt": "2025-10-05T03:17:42.186Z",
+      "updatedAt": "2025-10-05T03:17:43.985Z"
+    },
+    {
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "historyId": "a4245db9-db3d-40a0-8103-7203bad070dc",
+      "vote": "down",
+      "createdAt": "2025-10-05T06:08:48.115Z",
+      "updatedAt": "2025-10-05T06:36:31.125Z"
+    },
+    {
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "historyId": "dce101de-8758-4a3c-9ec8-ec4f88f076b7",
+      "vote": "up",
+      "createdAt": "2025-10-05T06:09:03.891Z",
+      "updatedAt": "2025-10-05T06:36:35.453Z"
+    },
+    {
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "historyId": "d2aa19c0-1022-4213-b528-ffe76a42b49d",
+      "vote": "down",
+      "createdAt": "2025-10-05T06:10:07.489Z",
+      "updatedAt": "2025-10-05T06:10:09.109Z"
+    },
+    {
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "historyId": "10711126-e8a3-4de5-a9e7-5a3d7b716d5d",
+      "vote": "down",
+      "createdAt": "2025-10-05T06:10:27.800Z",
+      "updatedAt": "2025-10-05T06:44:33.652Z"
+    },
+    {
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "historyId": "d6d0878a-6bd3-4149-8f1b-e66d936bd88c",
+      "vote": "up",
+      "createdAt": "2025-10-05T06:23:01.747Z",
+      "updatedAt": "2025-10-05T06:34:47.548Z"
+    },
+    {
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "historyId": "7e0249fd-e7f5-4b1c-a47a-8302e8e7cf8d",
+      "vote": "up",
+      "createdAt": "2025-10-05T06:36:37.661Z",
+      "updatedAt": "2025-10-05T06:37:14.653Z"
+    },
+    {
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "historyId": "6820f51d-5b6b-4cf1-b3ff-e1c42d29a225",
+      "vote": "up",
+      "createdAt": "2025-10-05T06:37:47.329Z",
+      "updatedAt": "2025-10-05T06:37:47.329Z"
+    },
+    {
+      "userId": "e5f5f2b8-0cd8-4d1c-ab9c-f9e5e1363f68",
+      "historyId": "317fb1c0-cd5b-4eec-bfad-761b9d4dafa5",
+      "vote": "up",
+      "createdAt": "2025-10-05T06:40:34.076Z",
+      "updatedAt": "2025-10-05T07:18:16.098Z"
+    }
+  ]
+}

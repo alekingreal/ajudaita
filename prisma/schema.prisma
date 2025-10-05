@@ -1,0 +1,192 @@
+generator client {
+  provider = "prisma-client-js"
+  // se quiser gerar dentro de src: output = "../src/generated/prisma"
+}
+
+datasource db {
+  provider          = "postgresql"
+  url               = env("DATABASE_URL")
+  shadowDatabaseUrl = env("SHADOW_DATABASE_URL")
+}
+
+enum MessageRole {
+  user
+  assistant
+  system
+}
+
+enum Vote {
+  up
+  down
+}
+
+model User {
+  id        String   @id @default(cuid())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // login básico
+  email        String? @unique
+  phone        String? @unique
+  username     String? @unique
+  passwordHash String?
+
+  // social logins
+  accounts Account[]
+
+  // perfil
+  firstName String?
+  lastName  String?
+  birthDate DateTime?
+
+  // dados do app
+  level String? // "fundamental" | "medio" | "faculdade"
+  theme String? // "light" | "dark"
+
+  conversations Conversation[]
+  boards        Board[]
+  feedbacks     Feedback[]
+
+  @@index([email])
+  @@index([phone])
+  @@index([username])
+}
+
+model Account {
+  id                String @id @default(cuid())
+  provider          String // "google" | "apple" | "facebook"
+  providerAccountId String
+  userId            String
+  user              User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Conversation {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  title     String   @default("Nova conversa")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  messages Message[]
+
+  @@index([userId, createdAt])
+}
+
+model Message {
+  id             String       @id @default(cuid())
+  conversationId String
+  conversation   Conversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+
+  role      MessageRole
+  content   String      @db.Text
+  historyId String? // id legado
+  favorite  Boolean     @default(false)
+  vote      Vote?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  attachments Attachment[]
+  feedbacks   Feedback[]   @relation("MessageFeedbacks")
+
+  @@index([conversationId, createdAt])
+  @@index([favorite])
+  @@index([historyId])
+}
+
+model Attachment {
+  id        String   @id @default(cuid())
+  messageId String
+  message   Message  @relation(fields: [messageId], references: [id], onDelete: Cascade)
+  kind      String // "image" | "audio" | "pdf" | "code"
+  url       String // S3/Cloud
+  name      String?
+  mime      String?
+  sizeBytes Int?
+  createdAt DateTime @default(now())
+
+  @@index([messageId])
+}
+
+model Feedback {
+  id        String   @id @default(cuid())
+  userId    String?
+  messageId String?
+  vote      Vote
+  createdAt DateTime @default(now())
+
+  user    User?    @relation(fields: [userId], references: [id])
+  message Message? @relation("MessageFeedbacks", fields: [messageId], references: [id], onDelete: SetNull)
+}
+
+model Board {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  title     String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  lists List[]
+
+  favorite Boolean @default(false)
+
+  @@index([userId])
+  @@index([favorite])
+}
+
+model List {
+  id        String   @id @default(cuid())
+  boardId   String
+  board     Board    @relation(fields: [boardId], references: [id], onDelete: Cascade)
+  title     String
+  order     Int      @default(100)
+  createdAt DateTime @default(now())
+
+  cards Card[]
+
+  @@index([boardId])
+  @@index([order])
+}
+
+model Card {
+  id        String    @id @default(cuid())
+  listId    String
+  list      List      @relation(fields: [listId], references: [id], onDelete: Cascade)
+  title     String
+  order     Int       @default(100)
+  due       DateTime?
+  remindAt  DateTime?
+  labels    String[] // tags
+  progress  Int? // 0..100
+  createdAt DateTime  @default(now())
+
+  @@index([listId])
+  @@index([order])
+}
+
+// === SEU Event ORIGINAL (mantém) ===
+model Event {
+  id        String   @id @default(cuid())
+  type      String
+  payload   Json
+  createdAt DateTime @default(now())
+
+  // ← backref opcional p/ filtrar por user
+  userEvent UserEvent?
+
+  @@index([type, createdAt])
+}
+
+// === NOVO modelo auxiliar ===
+model UserEvent {
+  eventId String @id
+  userId  String
+
+  event Event @relation(fields: [eventId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}

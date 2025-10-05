@@ -785,38 +785,56 @@ app.post('/vision/ocr', async (req, res) => {
 /* -------------------------------------------------------
    Histórico genérico (chat/summary)
 ------------------------------------------------------- */
-app.get('/history', (req, res) => {
-  const { userId, limit = 50, favorite } = req.query || {};
-  if (!userId) return res.status(400).json({ error: 'userId é obrigatório' });
+// DEPOIS
+app.get('/history', async (req, res) => {
+  try {
+    const { userId, limit = 50, favorite } = req.query || {};
+    if (!userId) return res.status(400).json({ error: 'userId é obrigatório' });
 
-  let items = listEvents(userId, Number(limit));
-  if (typeof favorite !== 'undefined') {
-    const want = String(favorite) === '1' || String(favorite) === 'true';
-    items = items.filter(it => Boolean(it.payload?.favorite) === want);
+    let items = await listEvents(userId, Number(limit));
+    if (typeof favorite !== 'undefined') {
+      const want = String(favorite) === '1' || String(favorite) === 'true';
+      items = items.filter(it => Boolean(it.payload?.favorite) === want);
+    }
+    res.json({ items });
+  } catch (e) {
+    console.error('GET /history error', e);
+    res.status(500).json({ error: 'erro interno' });
   }
-  res.json({ items });
 });
-app.patch('/history/:id/favorite', (req, res) => {
-  const { id } = req.params;
-  const { userId, favorite } = req.body || {};
-  if (!userId || typeof favorite !== 'boolean') {
-    return res.status(400).json({ error: 'userId e favorite (boolean) são obrigatórios' });
-  }
-  const items = listEvents(userId, 10000);
-  const found = items.find(it => it.id === id);
-  if (!found) return res.status(404).json({ error: 'Item não encontrado' });
+// DEPOIS
+app.patch('/history/:id/favorite', async (req, res) => {
+  try {
+    const { id } = req.params;
+    const { userId, favorite } = req.body || {};
+    if (!userId || typeof favorite !== 'boolean') {
+      return res.status(400).json({ error: 'userId e favorite (boolean) são obrigatórios' });
+    }
+    const items = await listEvents(userId, 10000);
+    const found = items.find(it => it.id === id);
+    if (!found) return res.status(404).json({ error: 'Item não encontrado' });
 
-  found.payload = { ...(found.payload || {}), favorite };
-  removeEvent(id, userId);
-  addEvent(found);
-  res.json({ ok: true });
+    found.payload = { ...(found.payload || {}), favorite };
+    await removeEvent(id, userId);
+    await addEvent(found);
+    res.json({ ok: true });
+  } catch (e) {
+    console.error('PATCH /history/:id/favorite error', e);
+    res.status(500).json({ error: 'erro interno' });
+  }
 });
-app.delete('/history/:id', (req, res) => {
-  const { id } = req.params;
-  const { userId } = req.query || {};
-  if (!userId) return res.status(400).json({ error: 'userId é obrigatório' });
-  const removed = removeEvent(id, userId);
-  res.json({ ok: removed > 0 });
+// DEPOIS
+app.delete('/history/:id', async (req, res) => {
+  try {
+    const { id } = req.params;
+    const { userId } = req.query || {};
+    if (!userId) return res.status(400).json({ error: 'userId é obrigatório' });
+    const removed = await removeEvent(id, userId);
+    res.json({ ok: removed > 0 });
+  } catch (e) {
+    console.error('DELETE /history/:id error', e);
+    res.status(500).json({ error: 'erro interno' });
+  }
 });
 /* -------------------------------------------------------
    Planner (APENAS 1 chamada ao LLM) — compat com App.js
@@ -1054,122 +1072,228 @@ app.get('/planner', (req, res) => {
 });
 
 // GET /planner/:id (detalhe completo)
-app.get('/planner/:id', (req, res) => {
-  const { id } = req.params;
-  const { userId } = req.query || {};
-  if (!userId) return res.status(400).json({ error: 'userId é obrigatório' });
+// GET /planner (lista leve)
+app.get('/planner', async (req, res) => {
+  try {
+    const { userId, limit = 50, favorite } = req.query || {};
+    if (!userId) {
+      return res.status(400).json({ error: 'userId é obrigatório' });
+    }
 
-  const items = listEvents(userId, 10000);
-  const found = items.find(it => it.id === id && it.type === 'plan');
-  if (!found) return res.status(404).json({ error: 'Plano não encontrado' });
+    // listEvents é assíncrono → await
+    let items = await listEvents(userId, Number(limit));
+    // só planos
+    items = items.filter(it => it.type === 'plan');
 
-  const payload = found.payload || {};
-  const plan = payload.plan || {};
+    if (typeof favorite !== 'undefined') {
+      const want = String(favorite) === '1' || String(favorite) === 'true';
+      items = items.filter(it => Boolean(it.payload?.favorite) === want);
+    }
 
-  // conversão legado
-  if (!plan.schedule && Array.isArray(plan.dias)) {
-    plan.meta = plan.meta || {
-      titulo: payload?.objetivoGeral || 'Plano (legado)',
-      categoria: 'estudos',
-      janela: { inicio: new Date().toISOString().slice(0,10), fim: payload?.input?.dataAlvo || new Date().toISOString().slice(0,10) },
-      minutosPorDia: payload?.minutosPorDia || 60,
-      premissas: ['convertido de formato legado'],
-    };
-    plan.schedule = plan.dias.map(d => ({
-      data: d.data?.match(/^\d{2}-\d{2}-\d{4}$/) ? d.data.split('-').reverse().join('-') : (new Date(d.data).toISOString().slice(0,10)),
-      blocos: (d.tarefas || []).map(t => ({
-        inicio: '07:30', fim: '08:15', tipo: 'tarefa',
-        titulo: String(t).slice(0,60), descricao: String(t).slice(0,180),
-        topicos: [], prioridade: 'média', origem: { from: 'legacy' }
-      }))
-    }));
-    plan.checklist = plan.checklist || [];
-    plan.observacoes = plan.observacoes || 'Plano convertido automaticamente do formato legado.';
-    plan.racional = plan.racional || ['Conversão automática (legado→rico).'];
-    delete plan.dias;
+    const plans = items.map(it => {
+      const plan = it.payload?.plan || {};
+      const meta = plan.meta || {};
+      const schedule = Array.isArray(plan.schedule) ? plan.schedule : [];
+      const totalBlocos = schedule.reduce(
+        (acc, d) => acc + (Array.isArray(d.blocos) ? d.blocos.length : 0),
+        0
+      );
+
+      return {
+        id: it.id,
+        createdAt: it.createdAt,
+        favorite: Boolean(it.payload?.favorite),
+        titulo: meta.titulo || it.payload?.objetivoGeral || 'Plano',
+        categoria: meta.categoria || 'outros',
+        janela: meta.janela || null,
+        minutosPorDia: meta.minutosPorDia || it.payload?.minutosPorDia || null,
+        dias: schedule.length,
+        blocos: totalBlocos,
+        dataAlvo: it.payload?.input?.dataAlvo || meta?.janela?.fim || null,
+        materias: Array.from(
+          new Set((it.payload?.input?.itens || []).map(x => x?.materia).filter(Boolean))
+        ),
+      };
+    });
+
+    res.json({ plans });
+  } catch (e) {
+    console.error('GET /planner error', e);
+    res.status(500).json({ error: 'erro interno' });
   }
+});
 
-  res.json({
-    id: found.id,
-    createdAt: found.createdAt,
-    ...payload,
-    plan,
-  });
+
+// GET /planner/:id (detalhe completo)
+app.get('/planner/:id', async (req, res) => {
+  try {
+    const { id } = req.params;
+    const { userId } = req.query || {};
+    if (!userId) {
+      return res.status(400).json({ error: 'userId é obrigatório' });
+    }
+
+    // await aqui também
+    const items = await listEvents(userId, 10000);
+    const found = items.find(it => it.id === id && it.type === 'plan');
+    if (!found) return res.status(404).json({ error: 'Plano não encontrado' });
+
+    const payload = found.payload || {};
+    const plan = payload.plan || {};
+
+    // conversão legado → enriquece para o formato novo
+    if (!plan.schedule && Array.isArray(plan.dias)) {
+      plan.meta = plan.meta || {
+        titulo: payload?.objetivoGeral || 'Plano (legado)',
+        categoria: 'estudos',
+        janela: {
+          inicio: new Date().toISOString().slice(0, 10),
+          fim: payload?.input?.dataAlvo || new Date().toISOString().slice(0, 10)
+        },
+        minutosPorDia: payload?.minutosPorDia || 60,
+        premissas: ['convertido de formato legado'],
+      };
+      plan.schedule = plan.dias.map(d => ({
+        data: d.data?.match(/^\d{2}-\d{2}-\d{4}$/)
+          ? d.data.split('-').reverse().join('-')
+          : (new Date(d.data).toISOString().slice(0, 10)),
+        blocos: (d.tarefas || []).map(t => ({
+          inicio: '07:30',
+          fim: '08:15',
+          tipo: 'tarefa',
+          titulo: String(t).slice(0, 60),
+          descricao: String(t).slice(0, 180),
+          topicos: [],
+          prioridade: 'média',
+          origem: { from: 'legacy' }
+        }))
+      }));
+      plan.checklist = plan.checklist || [];
+      plan.observacoes = plan.observacoes || 'Plano convertido automaticamente do formato legado.';
+      plan.racional = plan.racional || ['Conversão automática (legado→rico).'];
+      delete plan.dias;
+    }
+
+    res.json({
+      id: found.id,
+      createdAt: found.createdAt,
+      ...payload,
+      plan,
+    });
+  } catch (e) {
+    console.error('GET /planner/:id error', e);
+    res.status(500).json({ error: 'erro interno' });
+  }
 });
 
 // PATCH /planner/:id/block
-app.patch('/planner/:id/block', (req, res) => {
-  const { id } = req.params;
-  const { userId, date, start, done=true } = req.body || {};
-  if (!userId || !date || !start) return res.status(400).json({ error: 'userId, date, start obrigatórios' });
+app.patch('/planner/:id/block', async (req, res) => {
+  try {
+    const { id } = req.params;
+    const { userId, date, start, done = true } = req.body || {};
+    if (!userId || !date || !start) {
+      return res.status(400).json({ error: 'userId, date, start obrigatórios' });
+    }
 
-  const items = listEvents(userId, 10000);
-  const found = items.find(it => it.id === id && it.type === 'plan');
-  if (!found) return res.status(404).json({ error: 'Plano não encontrado' });
+    const items = await listEvents(userId, 10000);
+    const found = items.find(it => it.id === id && it.type === 'plan');
+    if (!found) return res.status(404).json({ error: 'Plano não encontrado' });
 
-  const plan = found.payload?.plan || {};
-  const day = (plan.schedule || []).find(d => d.data === date);
-  if (!day) return res.status(404).json({ error: 'Dia não encontrado' });
-  const blk = (day.blocos || []).find(b => b.inicio === start);
-  if (!blk) return res.status(404).json({ error: 'Bloco não encontrado' });
+    const plan = found.payload?.plan || {};
+    const day = (plan.schedule || []).find(d => d.data === date);
+    if (!day) return res.status(404).json({ error: 'Dia não encontrado' });
 
-  blk.done = Boolean(done);
-  blk.doneAt = done ? nowISO() : null;
+    const blk = (day.blocos || []).find(b => b.inicio === start);
+    if (!blk) return res.status(404).json({ error: 'Bloco não encontrado' });
 
-  removeEvent(id, userId);
-  addEvent(found);
-  res.json({ ok: true, block: blk });
+    blk.done = Boolean(done);
+    blk.doneAt = done ? nowISO() : null;
+
+    await removeEvent(id, userId);
+    await addEvent(found);
+
+    res.json({ ok: true, block: blk });
+  } catch (e) {
+    console.error('PATCH /planner/:id/block error', e);
+    res.status(500).json({ error: 'erro interno' });
+  }
 });
+
 
 // PATCH /planner/:id/checklist/:itemId
-app.patch('/planner/:id/checklist/:itemId', (req, res) => {
-  const { id, itemId } = req.params;
-  const { userId, done = true } = req.body || {};
-  if (!userId) return res.status(400).json({ error: 'userId é obrigatório' });
+app.patch('/planner/:id/checklist/:itemId', async (req, res) => {
+  try {
+    const { id, itemId } = req.params;
+    const { userId, done = true } = req.body || {};
+    if (!userId) return res.status(400).json({ error: 'userId é obrigatório' });
 
-  const items = listEvents(userId, 10000);
-  const found = items.find(it => it.id === id && it.type === 'plan');
-  if (!found) return res.status(404).json({ error: 'Plano não encontrado' });
+    const items = await listEvents(userId, 10000);
+    const found = items.find(it => it.id === id && it.type === 'plan');
+    if (!found) return res.status(404).json({ error: 'Plano não encontrado' });
 
-  const plan = found.payload?.plan || {};
-  if (!Array.isArray(plan.checklist)) plan.checklist = [];
-  plan.checklist = plan.checklist.map(ch => ch.id === itemId ? { ...ch, done: Boolean(done), doneAt: done ? nowISO() : null } : ch);
+    const plan = found.payload?.plan || {};
+    if (!Array.isArray(plan.checklist)) plan.checklist = [];
 
-  removeEvent(id, userId);
-  addEvent(found);
-  res.json({ ok: true, checklist: plan.checklist });
+    plan.checklist = plan.checklist.map(ch =>
+      ch.id === itemId
+        ? { ...ch, done: Boolean(done), doneAt: done ? nowISO() : null }
+        : ch
+    );
+
+    await removeEvent(id, userId);
+    await addEvent(found);
+
+    res.json({ ok: true, checklist: plan.checklist });
+  } catch (e) {
+    console.error('PATCH /planner/:id/checklist/:itemId error', e);
+    res.status(500).json({ error: 'erro interno' });
+  }
 });
+
 
 // PATCH /planner/:id/favorite
-app.patch('/planner/:id/favorite', (req, res) => {
-  const { id } = req.params;
-  const { userId, favorite } = req.body || {};
-  if (!userId || typeof favorite !== 'boolean') {
-    return res.status(400).json({ error: 'userId e favorite (boolean) são obrigatórios' });
+app.patch('/planner/:id/favorite', async (req, res) => {
+  try {
+    const { id } = req.params;
+    const { userId, favorite } = req.body || {};
+    if (!userId || typeof favorite !== 'boolean') {
+      return res.status(400).json({ error: 'userId e favorite (boolean) são obrigatórios' });
+    }
+
+    const items = await listEvents(userId, 10000);
+    const found = items.find(it => it.id === id && it.type === 'plan');
+    if (!found) return res.status(404).json({ error: 'Plano não encontrado' });
+
+    found.payload = { ...(found.payload || {}), favorite: Boolean(favorite) };
+
+    await removeEvent(id, userId);
+    await addEvent(found);
+
+    res.json({ ok: true });
+  } catch (e) {
+    console.error('PATCH /planner/:id/favorite error', e);
+    res.status(500).json({ error: 'erro interno' });
   }
-
-  const items = listEvents(userId, 10000);
-  const found = items.find(it => it.id === id && it.type === 'plan');
-  if (!found) return res.status(404).json({ error: 'Plano não encontrado' });
-
-  found.payload = { ...(found.payload || {}), favorite };
-  removeEvent(id, userId);
-  addEvent(found);
-  res.json({ ok: true });
 });
 
+
 // DELETE /planner/:id
-app.delete('/planner/:id', (req, res) => {
-  const { id } = req.params;
-  const { userId } = req.query || {};
-  if (!userId) return res.status(400).json({ error: 'userId é obrigatório' });
+app.delete('/planner/:id', async (req, res) => {
+  try {
+    const { id } = req.params;
+    const { userId } = req.query || {};
+    if (!userId) return res.status(400).json({ error: 'userId é obrigatório' });
 
-  const items = listEvents(userId, 10000);
-  const found = items.find(it => it.id === id && it.type === 'plan');
-  if (!found) return res.status(404).json({ error: 'Plano não encontrado' });
+    const items = await listEvents(userId, 10000);
+    const found = items.find(it => it.id === id && it.type === 'plan');
+    if (!found) return res.status(404).json({ error: 'Plano não encontrado' });
 
-  const removed = removeEvent(id, userId);
-  res.json({ ok: removed > 0 });
+    const removed = await removeEvent(id, userId);
+    res.json({ ok: removed > 0 });
+  } catch (e) {
+    console.error('DELETE /planner/:id error', e);
+    res.status(500).json({ error: 'erro interno' });
+  }
 });
 
 /* -------------------------------------------------------

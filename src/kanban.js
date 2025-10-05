@@ -159,33 +159,55 @@ module.exports = function registerKanban(
    * Boards
    * ========================= */
   // [HELP-AI] GET /kanban/boards/:id?userId
-  app.get('/kanban/boards/:id', (req, res) => {
-    const { id } = req.params;
-    const { userId } = req.query || {};
-    if (!userId) return res.status(400).json({ error: 'userId é obrigatório' });
-    const all = getAll(userId);
-    const ev = all.find(e=> e.id===id && e.payload?.kind==='board');
-    if(!ev) return res.status(404).json({ error: 'Board não encontrado' });
-    const board = { id: ev.id, title: ev.payload.title, description: ev.payload.description || '', favorite: !!ev.payload.favorite, createdAt: ev.createdAt };
-    return res.json({ board });
+  app.get('/kanban/boards/:id', async (req, res) => {
+    try {
+      const { id } = req.params;
+      const { userId } = req.query || {};
+      if (!userId) return res.status(400).json({ error: 'userId é obrigatório' });
+  
+      const all = await listEvents(userId, MAX);
+      const ev = (all || []).find(e => e.type === TYP && e.id === id && e.payload?.kind === 'board');
+      if (!ev) return res.status(404).json({ error: 'Board não encontrado' });
+  
+      const board = {
+        id: ev.id,
+        title: ev.payload.title,
+        description: ev.payload.description || '',
+        favorite: !!ev.payload.favorite,
+        createdAt: ev.createdAt
+      };
+      return res.json({ board });
+    } catch (e) {
+      console.error('GET /kanban/boards/:id error', e);
+      return res.status(500).json({ error: 'erro interno' });
+    }
   });
 
 
   // GET /kanban/boards?userId
-  app.get('/kanban/boards', (req, res) => {
-    const { userId } = req.query || {};
-    if (!userId) return res.status(400).json({ error: 'userId é obrigatório' });
-    const boards = getAll(userId)
-      .filter((e) => e.payload?.kind === 'board')
-      .map((e) => ({
-        id: e.id,
-        title: e.payload.title,
-        description: e.payload.description || '',
-        favorite: !!e.payload.favorite,
-        createdAt: e.createdAt,
-      }));
-    res.json({ boards });
+  app.get('/kanban/boards', async (req, res) => {
+    try {
+      const { userId } = req.query || {};
+      if (!userId) return res.status(400).json({ error: 'userId é obrigatório' });
+  
+      const all = await listEvents(userId, MAX);
+      const boards = (all || [])
+        .filter(e => e.type === TYP && e.payload?.kind === 'board')
+        .map(e => ({
+          id: e.id,
+          title: e.payload.title,
+          description: e.payload.description || '',
+          favorite: !!e.payload.favorite,
+          createdAt: e.createdAt,
+        }));
+  
+      return res.json({ boards });
+    } catch (e) {
+      console.error('GET /kanban/boards error', e);
+      return res.status(500).json({ error: 'erro interno' });
+    }
   });
+  
 
   // POST /kanban/boards { userId, title, description? }
   app.post('/kanban/boards', (req, res) => {

@@ -791,17 +791,20 @@ app.get('/history', async (req, res) => {
     const { userId, limit = 50, favorite } = req.query || {};
     if (!userId) return res.status(400).json({ error: 'userId é obrigatório' });
 
-    let items = await listEvents(userId, Number(limit));
+    let items = await listEvents(userId, Number(limit) || 50);
+
     if (typeof favorite !== 'undefined') {
       const want = String(favorite) === '1' || String(favorite) === 'true';
       items = items.filter(it => Boolean(it.payload?.favorite) === want);
     }
-    res.json({ items });
+
+    return res.json({ items });
   } catch (e) {
     console.error('GET /history error', e);
-    res.status(500).json({ error: 'erro interno' });
+    return res.status(500).json({ error: 'erro interno' });
   }
 });
+
 // DEPOIS
 app.patch('/history/:id/favorite', async (req, res) => {
   try {
@@ -810,30 +813,35 @@ app.patch('/history/:id/favorite', async (req, res) => {
     if (!userId || typeof favorite !== 'boolean') {
       return res.status(400).json({ error: 'userId e favorite (boolean) são obrigatórios' });
     }
+
     const items = await listEvents(userId, 10000);
     const found = items.find(it => it.id === id);
     if (!found) return res.status(404).json({ error: 'Item não encontrado' });
 
-    found.payload = { ...(found.payload || {}), favorite };
+    found.payload = { ...(found.payload || {}), favorite: Boolean(favorite) };
+
     await removeEvent(id, userId);
     await addEvent(found);
-    res.json({ ok: true });
+
+    return res.json({ ok: true });
   } catch (e) {
     console.error('PATCH /history/:id/favorite error', e);
-    res.status(500).json({ error: 'erro interno' });
+    return res.status(500).json({ error: 'erro interno' });
   }
 });
-// DEPOIS
+
+// DELETE /history/:id
 app.delete('/history/:id', async (req, res) => {
   try {
     const { id } = req.params;
     const { userId } = req.query || {};
     if (!userId) return res.status(400).json({ error: 'userId é obrigatório' });
+
     const removed = await removeEvent(id, userId);
-    res.json({ ok: removed > 0 });
+    return res.json({ ok: removed > 0 });
   } catch (e) {
     console.error('DELETE /history/:id error', e);
-    res.status(500).json({ error: 'erro interno' });
+    return res.status(500).json({ error: 'erro interno' });
   }
 });
 /* -------------------------------------------------------

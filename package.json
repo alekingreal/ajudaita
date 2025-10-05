@@ -4,9 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/server.js",
-    "start": "node src/server.js"
-  },
+  "dev": "nodemon src/server.js",
+  "start": "node src/server.js",
+
+  "migrate:deploy": "prisma migrate deploy",
+  "render-start": "npm run migrate:deploy && node src/server.js",
+
+  "postinstall": "prisma generate"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",

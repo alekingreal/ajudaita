@@ -72,7 +72,9 @@ const uploadImages = multer({
   storage: multer.memoryStorage(),
   limits: { fileSize: 10 * 1024 * 1024, files: 6 },
 });
-app.use('/feedback', require('./routes/feedback')); // 
+app.use('/feedback', require('./routes/feedback'));
+app.use('/auth', require('./routes/auth'));   // <-- ADICIONE ESTA LINHA
+console.log('✔ routes mounted: /auth');
 /* -------------------------------------------------------
    Logs básicos
 ------------------------------------------------------- */
